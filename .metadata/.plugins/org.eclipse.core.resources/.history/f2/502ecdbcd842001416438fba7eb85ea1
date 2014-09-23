@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jboss-as-kitchensink">
+        <property name="context-root" value="jboss-as-kitchensink"/>
+    </wb-module>
+</project-modules>

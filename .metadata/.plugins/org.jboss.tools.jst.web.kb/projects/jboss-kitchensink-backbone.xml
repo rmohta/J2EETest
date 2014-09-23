@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.1_spec/1.0.1.Final-redhat-2/jboss-annotations-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.0.Final/arquillian-test-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.0.Final/arquillian-test-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/validation/validation-api/1.0.0.GA-redhat-2/validation-api-1.0.0.GA-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/inject/javax.inject/1-redhat-3/javax.inject-1-redhat-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-jpamodelgen/1.2.0.Final/hibernate-jpamodelgen-1.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.0.Final/arquillian-container-test-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.0.Final/arquillian-test-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final-redhat-2/jboss-interceptors-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.0.Final/arquillian-junit-core-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_1.1_spec/1.0.1.Final-redhat-2/jboss-jaxrs-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.2.Final-redhat-1/jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.0.Final/arquillian-container-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.0.Final/arquillian-container-test-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.0.Final/arquillian-config-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.0.Final/arquillian-core-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.0.Final/arquillian-junit-container-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.0.Final/arquillian-container-test-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/logging/jboss-logging/3.1.2.GA-redhat-1/jboss-logging-3.1.2.GA-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-validator/4.3.1.Final-redhat-1/hibernate-validator-4.3.1.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final-redhat-2/jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.0.Final/arquillian-config-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final-redhat-2/hibernate-jpa-2.0-api-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.0.Final/arquillian-protocol-servlet-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.0.Final/arquillian-container-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.0.Final/arquillian-core-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.0.Final/arquillian-core-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/enterprise/cdi-api/1.0-SP4-redhat-2/cdi-api-1.0-SP4-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-validator-annotation-processor/4.3.1.Final-redhat-1/hibernate-validator-annotation-processor-4.3.1.Final-redhat-1.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%1;" path="%2"/>
+   <linked-resource name="%4;%1;%5;%6;" path="%3"/>
+   <linked-resource name="%4;" path="%7"/>
+  </core>
+  <el>
+   <linked-el length="26" name="%8" offset="13391" path="%9"/>
+   <linked-el length="21" name="%10" offset="12285" path="%9"/>
+   <linked-el length="21" name="%10" offset="8951" path="%9"/>
+   <linked-el length="29" name="%11" offset="9585" path="%9"/>
+   <linked-el length="24" name="%12" offset="4358" path="%9"/>
+   <linked-el length="24" name="%12" offset="4054" path="%9"/>
+   <linked-el length="25" name="%13" offset="9823" path="%9"/>
+   <linked-el length="24" name="%14" offset="15037" path="%9"/>
+   <linked-el length="24" name="%14" offset="14044" path="%9"/>
+   <linked-el length="24" name="%15" offset="4358" path="%9"/>
+   <linked-el length="29" name="%15" offset="9585" path="%9"/>
+   <linked-el length="21" name="%15" offset="12285" path="%9"/>
+   <linked-el length="24" name="%15" offset="15037" path="%9"/>
+   <linked-el length="19" name="%15" offset="19832" path="%9"/>
+   <linked-el length="89" name="%15" offset="18588" path="%9"/>
+   <linked-el length="24" name="%15" offset="4054" path="%9"/>
+   <linked-el length="24" name="%15" offset="14044" path="%9"/>
+   <linked-el length="26" name="%15" offset="11397" path="%9"/>
+   <linked-el length="26" name="%15" offset="13391" path="%9"/>
+   <linked-el length="26" name="%15" offset="16151" path="%9"/>
+   <linked-el length="26" name="%15" offset="18330" path="%9"/>
+   <linked-el length="25" name="%15" offset="9823" path="%9"/>
+   <linked-el length="19" name="%15" offset="17955" path="%9"/>
+   <linked-el length="21" name="%15" offset="8951" path="%9"/>
+   <linked-el length="21" name="%16" offset="12285" path="%9"/>
+   <linked-el length="21" name="%16" offset="8951" path="%9"/>
+   <linked-el length="26" name="%17" offset="19923" path="%9"/>
+   <linked-el length="57" name="%17" offset="15729" path="%9"/>
+   <linked-el length="89" name="%17" offset="18588" path="%9"/>
+   <linked-el length="58" name="%17" offset="15598" path="%9"/>
+   <linked-el length="57" name="%18" offset="15729" path="%9"/>
+   <linked-el length="58" name="%18" offset="15598" path="%9"/>
+   <linked-el length="26" name="%19" offset="13391" path="%9"/>
+   <linked-el length="26" name="%20" offset="13391" path="%9"/>
+   <linked-el length="25" name="%21" offset="9823" path="%9"/>
+   <linked-el length="24" name="%22" offset="2056" path="%23"/>
+   <linked-el length="29" name="%24" offset="9585" path="%9"/>
+   <linked-el length="24" name="%25" offset="4054" path="%9"/>
+   <linked-el length="21" name="%26" offset="8795" path="%9"/>
+   <linked-el length="26" name="%27" offset="19923" path="%9"/>
+   <linked-el length="57" name="%27" offset="15729" path="%9"/>
+   <linked-el length="89" name="%27" offset="18588" path="%9"/>
+   <linked-el length="58" name="%27" offset="15598" path="%9"/>
+   <linked-el length="21" name="%27" offset="8795" path="%9"/>
+   <linked-el length="24" name="%28" offset="2056" path="%23"/>
+   <linked-el length="26" name="%29" offset="16151" path="%9"/>
+   <linked-el length="26" name="%29" offset="18330" path="%9"/>
+   <linked-el length="26" name="%29" offset="11397" path="%9"/>
+   <linked-el length="24" name="%30" offset="15037" path="%9"/>
+   <linked-el length="24" name="%30" offset="14044" path="%9"/>
+   <linked-el length="24" name="%31" offset="15037" path="%9"/>
+   <linked-el length="24" name="%31" offset="14044" path="%9"/>
+   <linked-el length="24" name="%32" offset="4358" path="%9"/>
+   <linked-el length="26" name="%33" offset="16151" path="%9"/>
+   <linked-el length="26" name="%33" offset="18330" path="%9"/>
+   <linked-el length="26" name="%33" offset="11397" path="%9"/>
+   <linked-el length="24" name="%34" offset="4358" path="%9"/>
+   <linked-el length="29" name="%34" offset="9585" path="%9"/>
+   <linked-el length="19" name="%34" offset="17955" path="%9"/>
+   <linked-el length="19" name="%34" offset="19832" path="%9"/>
+   <linked-el length="89" name="%34" offset="18588" path="%9"/>
+   <linked-el length="24" name="%34" offset="4054" path="%9"/>
+   <linked-el length="19" name="%35" offset="17955" path="%9"/>
+   <linked-el length="19" name="%35" offset="19832" path="%9"/>
+   <linked-el length="89" name="%35" offset="18588" path="%9"/>
+   <linked-el length="26" name="%36" offset="19923" path="%9"/>
+   <linked-el length="57" name="%36" offset="15729" path="%9"/>
+   <linked-el length="89" name="%36" offset="18588" path="%9"/>
+   <linked-el length="58" name="%36" offset="15598" path="%9"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/jboss-kitchensink-backbone/pom.xml" value="%9"/>
+  <alias path="version.org.eclipse" value="%8"/>
+  <alias path="version.war.plugin" value="%10"/>
+  <alias path="version.jboss.maven.plugin" value="%11"/>
+  <alias
+   path="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/service/MemberRegistration.java" value="%2"/>
+  <alias path="version.jboss.bom" value="%12"/>
+  <alias path="version.license" value="%13"/>
+  <alias path="version.ro.isdc.wro4j" value="%14"/>
+  <alias path="version" value="%15"/>
+  <alias
+   path="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberRepository.java" value="%0"/>
+  <alias path="version.war" value="%16"/>
+  <alias
+   path="\jboss-kitchensink-backbone\src\test\java\org\jboss\as\quickstarts\kitchensink\test\MemberRegistrationTest.java" value="%4"/>
+  <alias path="project.build.directory" value="%17"/>
+  <alias
+   path="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/util/Resources.java" value="%3"/>
+  <alias
+   path="\jboss-kitchensink-backbone\src\main\java\org\jboss\as\quickstarts\kitchensink\data\MemberRepository.java" value="%5"/>
+  <alias
+   path="\jboss-kitchensink-backbone\src\main\java\org\jboss\as\quickstarts\kitchensink\rest\MemberService.java" value="%1"/>
+  <alias path="project.build.finalName" value="%18"/>
+  <alias path="version.org" value="%19"/>
+  <alias path="version.org.eclipse.m2e" value="%20"/>
+  <alias path="version.license.plugin" value="%21"/>
+  <alias
+   path="/jboss-kitchensink-backbone/src/test/resources/arquillian.xml" value="%23"/>
+  <alias path="arquillian" value="%22"/>
+  <alias path="version.jboss.maven" value="%24"/>
+  <alias path="version.jboss.bom.wfk" value="%25"/>
+  <alias path="project.artifactId" value="%26"/>
+  <alias
+   path="\jboss-kitchensink-backbone\src\main\java\org\jboss\as\quickstarts\kitchensink\service\MemberRegistration.java" value="%6"/>
+  <alias path="project" value="%27"/>
+  <alias path="version.ro" value="%30"/>
+  <alias path="version.surefire.plugin" value="%29"/>
+  <alias path="arquillian.jboss_home" value="%28"/>
+  <alias
+   path="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/MemberService.java" value="%7"/>
+  <alias path="version.ro.isdc" value="%31"/>
+  <alias path="version.jboss.bom.eap" value="%32"/>
+  <alias path="version.surefire" value="%33"/>
+  <alias path="version.jboss" value="%34"/>
+  <alias path="version.jboss.as" value="%35"/>
+  <alias path="project.build" value="%36"/>
+  <alias path="%26" value="project.artifactId"/>
+  <alias path="%25" value="version.jboss.bom.wfk"/>
+  <alias path="%28" value="arquillian.jboss_home"/>
+  <alias path="%27" value="project"/>
+  <alias path="%29" value="version.surefire.plugin"/>
+  <alias path="%20" value="version.org.eclipse.m2e"/>
+  <alias path="%22" value="arquillian"/>
+  <alias path="%21" value="version.license.plugin"/>
+  <alias path="%24" value="version.jboss.maven"/>
+  <alias path="%23" value="/jboss-kitchensink-backbone/src/test/resources/arquillian.xml"/>
+  <alias path="%0" value="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/data/MemberRepository.java"/>
+  <alias path="%4" value="\jboss-kitchensink-backbone\src\test\java\org\jboss\as\quickstarts\kitchensink\test\MemberRegistrationTest.java"/>
+  <alias path="%3" value="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/util/Resources.java"/>
+  <alias path="%2" value="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/service/MemberRegistration.java"/>
+  <alias path="%1" value="\jboss-kitchensink-backbone\src\main\java\org\jboss\as\quickstarts\kitchensink\rest\MemberService.java"/>
+  <alias path="%7" value="/jboss-kitchensink-backbone/src/main/java/org/jboss/as/quickstarts/kitchensink/rest/MemberService.java"/>
+  <alias path="%17" value="project.build.directory"/>
+  <alias path="%16" value="version.war"/>
+  <alias path="%8" value="version.org.eclipse"/>
+  <alias path="%15" value="version"/>
+  <alias path="%5" value="\jboss-kitchensink-backbone\src\main\java\org\jboss\as\quickstarts\kitchensink\data\MemberRepository.java"/>
+  <alias path="%6" value="\jboss-kitchensink-backbone\src\main\java\org\jboss\as\quickstarts\kitchensink\service\MemberRegistration.java"/>
+  <alias path="%14" value="version.ro.isdc.wro4j"/>
+  <alias path="%9" value="/jboss-kitchensink-backbone/pom.xml"/>
+  <alias path="%19" value="version.org"/>
+  <alias path="%36" value="project.build"/>
+  <alias path="%18" value="project.build.finalName"/>
+  <alias path="%35" value="version.jboss.as"/>
+  <alias path="%34" value="version.jboss"/>
+  <alias path="%33" value="version.surefire"/>
+  <alias path="%32" value="version.jboss.bom.eap"/>
+  <alias path="%31" value="version.ro.isdc"/>
+  <alias path="%13" value="version.license"/>
+  <alias path="%30" value="version.ro"/>
+  <alias path="%12" value="version.jboss.bom"/>
+  <alias path="%11" value="version.jboss.maven.plugin"/>
+  <alias path="%10" value="version.war.plugin"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

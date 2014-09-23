@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.0/shrinkwrap-impl-base-1.0.0.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.0.0.Final/arquillian-config-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.0.Final/arquillian-core-impl-base-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.0.0.Final/arquillian-test-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-validator-annotation-processor/4.2.0.Final/hibernate-validator-annotation-processor-4.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.0.0.Final/arquillian-core-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/junit/junit/4.10/junit-4.10.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.0.0.Final/arquillian-container-spi-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.0.Final/arquillian-test-impl-base-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.0/shrinkwrap-spi-1.0.0.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-jpamodelgen/1.2.0.Final/hibernate-jpamodelgen-1.2.0.Final.jar"/>
+  <path value="/jboss-as-kitchensink/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="jboss-as-kitchensink"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.0.0.Final/arquillian-junit-core-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_1.1_spec/1.0.0.Final/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="21" name="%0" offset="1114" path="%1"/>
+   <linked-el length="24" name="%2" offset="9294" path="%3"/>
+   <linked-el length="24" name="%2" offset="9356" path="%3"/>
+   <linked-el length="24" name="%4" offset="9356" path="%3"/>
+   <linked-el length="55" name="%5" offset="1610" path="%1"/>
+   <linked-el length="26" name="%6" offset="9197" path="%3"/>
+   <linked-el length="21" name="%7" offset="9549" path="%3"/>
+   <linked-el length="21" name="%7" offset="13142" path="%3"/>
+   <linked-el length="55" name="%8" offset="1610" path="%1"/>
+   <linked-el length="37" name="%9" offset="3115" path="%1"/>
+   <linked-el length="51" name="%9" offset="2905" path="%1"/>
+   <linked-el length="24" name="%10" offset="4122" path="%3"/>
+   <linked-el length="24" name="%10" offset="4426" path="%3"/>
+   <linked-el length="27" name="%11" offset="2957" path="%1"/>
+   <linked-el length="43" name="%11" offset="2314" path="%1"/>
+   <linked-el length="52" name="%11" offset="2716" path="%1"/>
+   <linked-el length="46" name="%11" offset="2579" path="%1"/>
+   <linked-el length="45" name="%11" offset="2445" path="%1"/>
+   <linked-el length="51" name="%11" offset="2905" path="%1"/>
+   <linked-el length="21" name="%12" offset="9549" path="%3"/>
+   <linked-el length="44" name="%12" offset="10183" path="%3"/>
+   <linked-el length="26" name="%12" offset="10947" path="%3"/>
+   <linked-el length="24" name="%12" offset="4122" path="%3"/>
+   <linked-el length="21" name="%12" offset="13142" path="%3"/>
+   <linked-el length="26" name="%12" offset="9197" path="%3"/>
+   <linked-el length="24" name="%12" offset="4426" path="%3"/>
+   <linked-el length="21" name="%13" offset="9549" path="%3"/>
+   <linked-el length="21" name="%13" offset="13142" path="%3"/>
+   <linked-el length="46" name="%14" offset="2579" path="%1"/>
+   <linked-el length="44" name="%15" offset="10183" path="%3"/>
+   <linked-el length="24" name="%15" offset="4122" path="%3"/>
+   <linked-el length="24" name="%15" offset="4426" path="%3"/>
+   <linked-el length="44" name="%16" offset="10183" path="%3"/>
+   <linked-el length="24" name="%16" offset="4122" path="%3"/>
+   <linked-el length="24" name="%16" offset="4426" path="%3"/>
+   <linked-el length="20" name="%17" offset="921" path="%1"/>
+   <linked-el length="37" name="%18" offset="3115" path="%1"/>
+   <linked-el length="51" name="%18" offset="2905" path="%1"/>
+   <linked-el length="44" name="%19" offset="10183" path="%3"/>
+   <linked-el length="25" name="%20" offset="2140" path="%1"/>
+   <linked-el length="18" name="%20" offset="2011" path="%1"/>
+   <linked-el length="35" name="%20" offset="2174" path="%1"/>
+   <linked-el length="20" name="%21" offset="921" path="%1"/>
+   <linked-el length="27" name="%21" offset="1343" path="%1"/>
+   <linked-el length="21" name="%21" offset="1114" path="%1"/>
+   <linked-el length="24" name="%22" offset="9294" path="%3"/>
+   <linked-el length="24" name="%22" offset="9356" path="%3"/>
+   <linked-el length="44" name="%23" offset="10183" path="%3"/>
+   <linked-el length="21" name="%24" offset="8914" path="%3"/>
+   <linked-el length="27" name="%25" offset="2957" path="%1"/>
+   <linked-el length="43" name="%25" offset="2314" path="%1"/>
+   <linked-el length="51" name="%25" offset="2905" path="%1"/>
+   <linked-el length="52" name="%26" offset="2716" path="%1"/>
+   <linked-el length="26" name="%27" offset="9197" path="%3"/>
+   <linked-el length="27" name="%28" offset="1343" path="%1"/>
+   <linked-el length="45" name="%29" offset="2445" path="%1"/>
+   <linked-el length="24" name="%30" offset="9294" path="%3"/>
+   <linked-el length="21" name="%31" offset="8914" path="%3"/>
+   <linked-el length="26" name="%32" offset="10947" path="%3"/>
+   <linked-el length="44" name="%33" offset="10183" path="%3"/>
+   <linked-el length="26" name="%34" offset="10947" path="%3"/>
+   <linked-el length="44" name="%35" offset="10183" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="maven" value="%2"/>
+  <alias path="newMember.email" value="%0"/>
+  <alias path="maven.compiler.target" value="%4"/>
+  <alias path="version.compiler.plugin" value="%6"/>
+  <alias path="memberController" value="%5"/>
+  <alias path="version.war.plugin" value="%7"/>
+  <alias path="memberController.register" value="%8"/>
+  <alias path="version.org.jboss.bom" value="%10"/>
+  <alias path="request.contextPath" value="%9"/>
+  <alias path="_member" value="%11"/>
+  <alias path="version" value="%12"/>
+  <alias path="version.war" value="%13"/>
+  <alias path="_member.email" value="%14"/>
+  <alias path="version.org" value="%15"/>
+  <alias path="version.org.jboss" value="%16"/>
+  <alias path="newMember.name" value="%17"/>
+  <alias path="request" value="%18"/>
+  <alias path="version.org.jboss.as.plugins.maven.plugin" value="%19"/>
+  <alias path="members" value="%20"/>
+  <alias path="/jboss-as-kitchensink/src/main/webapp/index.xhtml" value="%1"/>
+  <alias path="newMember" value="%21"/>
+  <alias path="maven.compiler" value="%22"/>
+  <alias path="project.artifactId" value="%24"/>
+  <alias path="version.org.jboss.as.plugins.maven" value="%23"/>
+  <alias path="_member.id" value="%25"/>
+  <alias path="_member.phoneNumber" value="%26"/>
+  <alias path="version.compiler" value="%27"/>
+  <alias path="newMember.phoneNumber" value="%28"/>
+  <alias path="maven.compiler.source" value="%30"/>
+  <alias path="_member.name" value="%29"/>
+  <alias path="/jboss-as-kitchensink/pom.xml" value="%3"/>
+  <alias path="project" value="%31"/>
+  <alias path="version.org.jboss.as.plugins" value="%33"/>
+  <alias path="version.surefire.plugin" value="%32"/>
+  <alias path="version.surefire" value="%34"/>
+  <alias path="version.org.jboss.as" value="%35"/>
+  <alias path="%26" value="_member.phoneNumber"/>
+  <alias path="%25" value="_member.id"/>
+  <alias path="%28" value="newMember.phoneNumber"/>
+  <alias path="%27" value="version.compiler"/>
+  <alias path="%29" value="_member.name"/>
+  <alias path="%20" value="members"/>
+  <alias path="%22" value="maven.compiler"/>
+  <alias path="%21" value="newMember"/>
+  <alias path="%24" value="project.artifactId"/>
+  <alias path="%23" value="version.org.jboss.as.plugins.maven"/>
+  <alias path="%0" value="newMember.email"/>
+  <alias path="%4" value="maven.compiler.target"/>
+  <alias path="%3" value="/jboss-as-kitchensink/pom.xml"/>
+  <alias path="%2" value="maven"/>
+  <alias path="%1" value="/jboss-as-kitchensink/src/main/webapp/index.xhtml"/>
+  <alias path="%7" value="version.war.plugin"/>
+  <alias path="%17" value="newMember.name"/>
+  <alias path="%8" value="memberController.register"/>
+  <alias path="%16" value="version.org.jboss"/>
+  <alias path="%5" value="memberController"/>
+  <alias path="%15" value="version.org"/>
+  <alias path="%6" value="version.compiler.plugin"/>
+  <alias path="%14" value="_member.email"/>
+  <alias path="%9" value="request.contextPath"/>
+  <alias path="%19" value="version.org.jboss.as.plugins.maven.plugin"/>
+  <alias path="%18" value="request"/>
+  <alias path="%35" value="version.org.jboss.as"/>
+  <alias path="%34" value="version.surefire"/>
+  <alias path="%33" value="version.org.jboss.as.plugins"/>
+  <alias path="%32" value="version.surefire.plugin"/>
+  <alias path="%31" value="project"/>
+  <alias path="%13" value="version.war"/>
+  <alias path="%30" value="maven.compiler.source"/>
+  <alias path="%12" value="version"/>
+  <alias path="%11" value="_member"/>
+  <alias path="%10" value="version.org.jboss.bom"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+ </uris>
+</kb-project>

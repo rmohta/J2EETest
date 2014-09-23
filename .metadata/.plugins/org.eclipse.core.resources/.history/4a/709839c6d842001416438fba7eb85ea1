@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jboss-kitchensink-backbone">
+        <property name="context-root" value="jboss-kitchensink-backbone"/>
+        <property name="java-output-path" value="/jboss-kitchensink-backbone/target/classes"/>
+    </wb-module>
+</project-modules>
