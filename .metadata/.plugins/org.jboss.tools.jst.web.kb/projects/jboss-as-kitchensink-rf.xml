@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/spi/jbosgi-spi/3.2.0.Final/jbosgi-spi-3.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/deployment/jbosgi-deployment/1.3.0.CR1/jbosgi-deployment-1.3.0.CR1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.1_spec/1.0.1.Final-redhat-2/jboss-annotations-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.0.Final/arquillian-test-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-arquillian-testenricher-msc/7.2.0.Final/jboss-as-arquillian-testenricher-msc-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jboss-vfs/3.1.0.Final/jboss-vfs-3.1.0.Final.jar"/>
+  <path value="/jboss-as-kitchensink-rf/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="jboss-as-kitchensink-rf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/xnio/xnio-api/3.0.7.GA/xnio-api-3.0.7.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/wagon/wagon-http-shared4/2.4/wagon-http-shared4-2.4.jar"/>
+  <path value="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/mobile">
+   <libraries>
+    <library class="composite">
+     <id class="model-object"
+      path="FileSystems/WEB-ROOT/resources/components/mobile" project="jboss-as-kitchensink-rf"/>
+     <attributes>
+      <entry name="uri">
+       <value-info value="http://java.sun.com/jsf/composite/components/mobile"/>
+      </entry>
+     </attributes>
+     <component class="composite" path="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/mobile/memberForm.xhtml">
+      <id class="model-object" path="/memberform.xhtml" project="jboss-as-kitchensink-rf"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="memberForm"/>
+       </entry>
+      </attributes>
+      <attribute class="composite">
+       <id class="model-object"
+        path="/memberform.xhtml/Interface/member" project="jboss-as-kitchensink-rf"/>
+      </attribute>
+     </component>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/remotingjmx/remoting-jmx/1.1.0.Final/remoting-jmx-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.0.Final/arquillian-container-test-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-jmx/1.1.0.Final/arquillian-protocol-jmx-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.0.Final/arquillian-test-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final-redhat-2/jboss-interceptors-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-arquillian-common/7.2.0.Final/jboss-as-arquillian-common-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/james/apache-mime4j/0.6.redhat-3/apache-mime4j-0.6.redhat-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/vfs/jbosgi-vfs/1.2.0.Final/jbosgi-vfs-1.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/metadata/jboss-metadata-ear/7.0.8.Final/jboss-metadata-ear-7.0.8.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-arquillian-container-remote/7.2.0.Final/jboss-as-arquillian-container-remote-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jboss-remote-naming/1.0.5.Final/jboss-remote-naming-1.0.5.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-arquillian-protocol-jmx/7.2.0.Final/jboss-as-arquillian-protocol-jmx-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/2.0.2/shrinkwrap-resolver-api-2.0.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jandex/1.0.3.Final/jandex-1.0.3.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/repository/jbosgi-repository-core/2.1.0.Final/jbosgi-repository-core-2.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.0.Final/arquillian-config-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jboss-common-core/2.2.17.GA-redhat-2/jboss-common-core-2.2.17.GA-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.0.Final/arquillian-core-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-osgi-service/7.2.0.Final/jboss-as-osgi-service-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final-redhat-2/jboss-ejb-api_3.1_spec-1.0.2.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.0.Final/arquillian-config-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/richfaces/core/richfaces-core-api/4.3.5.Final-redhat-1/richfaces-core-api-4.3.5.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-remoting/7.2.0.Final/jboss-as-remoting-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jboss-dmr/1.1.6.Final/jboss-dmr-1.1.6.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/maven-model-builder/3.0.5/maven-model-builder-3.0.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.0.Final/arquillian-core-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/aether/aether-api/1.13.1/aether-api-1.13.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/richfaces/core/richfaces-core-impl/4.3.5.Final-redhat-1/richfaces-core-impl-4.3.5.Final-redhat-1.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-richfaces-core-impl-4.3.5.Final-redhat-1.jar/meta-inf/faces-config.xml" project="jboss-as-kitchensink-rf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/marshalling/jboss-marshalling/1.3.16.GA/jboss-marshalling-1.3.16.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.0.Final/arquillian-test-api-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/framework/jbosgi-framework-core/2.1.0.CR12/jbosgi-framework-core-2.1.0.CR12.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/metadata/jboss-metadata-common/7.0.8.Final/jboss-metadata-common-7.0.8.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.1_spec/2.1.19.1.Final-redhat-1/jboss-jsf-api_2.1_spec-2.1.19.1.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-domain-management/7.2.0.Final/jboss-as-domain-management-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/enterprise/cdi-api/1.0-SP4.redhat-3/cdi-api-1.0-SP4.redhat-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-jpamodelgen/1.2.0.Final/hibernate-jpamodelgen-1.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-domain-http-interface/7.2.0.Final/jboss-as-domain-http-interface-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.0.Final/arquillian-container-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/richfaces/ui/richfaces-components-ui/4.3.5.Final-redhat-1/richfaces-components-ui-4.3.5.Final-redhat-1.jar">
+   <libraries>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-richfaces-components-ui-4.3.5.Final-redhat-1.jar/meta-inf/a4j.taglib.xml" project="jboss-as-kitchensink-rf"/>
+    </library>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-richfaces-components-ui-4.3.5.Final-redhat-1.jar/meta-inf/faces-config.xml" project="jboss-as-kitchensink-rf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-richfaces-components-ui-4.3.5.Final-redhat-1.jar/meta-inf/rich.taglib.xml" project="jboss-as-kitchensink-rf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-osgi/1.0.3.Final/arquillian-container-osgi-1.0.3.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/2.4/wagon-http-lightweight-2.4.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-process-controller/7.2.0.Final/jboss-as-process-controller-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/1.0.3.Final/arquillian-testenricher-osgi-1.0.3.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/inject/javax.inject/1.redhat-4/javax.inject-1.redhat-4.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/wagon/wagon-file/2.4/wagon-file-2.4.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/httpcomponents/httpcore/4.2.3/httpcore-4.2.3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.0.Final/arquillian-container-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/atmosphere/atmosphere-runtime/1.0.18/atmosphere-runtime-1.0.18.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-validator-annotation-processor/4.3.1.Final-redhat-1/hibernate-validator-annotation-processor-4.3.1.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/threads/jboss-threads/2.1.0.Final/jboss-threads-2.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/com/sun/httpserver/httpserver/1.0.1.Final/httpserver-1.0.1.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/richfaces/ui/richfaces-components-api/4.3.5.Final-redhat-1/richfaces-components-api-4.3.5.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-spi/2.0.2/shrinkwrap-resolver-spi-2.0.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jsoup/jsoup/1.7.1/jsoup-1.7.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.1.0.Final/arquillian-testenricher-initialcontext-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-spi-maven/2.0.2/shrinkwrap-resolver-spi-maven-2.0.2.jar"/>
+  <path value="/jboss-as-kitchensink-rf/src/main/webapp/resources/components">
+   <libraries>
+    <library class="composite">
+     <id class="model-object"
+      path="FileSystems/WEB-ROOT/resources/components" project="jboss-as-kitchensink-rf"/>
+     <attributes>
+      <entry name="uri">
+       <value-info value="http://java.sun.com/jsf/composite/components"/>
+      </entry>
+     </attributes>
+     <component class="composite" path="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/memberDetails.xhtml">
+      <id class="model-object" path="/memberdetails.xhtml" project="jboss-as-kitchensink-rf"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="memberDetails"/>
+       </entry>
+      </attributes>
+      <attribute class="composite">
+       <id class="model-object"
+        path="/memberdetails.xhtml/Interface/member" project="jboss-as-kitchensink-rf"/>
+      </attribute>
+     </component>
+     <component class="composite" path="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/memberForm.xhtml">
+      <id class="model-object" path="/memberform.xhtml" project="jboss-as-kitchensink-rf"/>
+      <attributes>
+       <entry name="name">
+        <value-info value="memberForm"/>
+       </entry>
+      </attributes>
+      <attribute class="composite">
+       <id class="model-object"
+        path="/memberform.xhtml/Interface/member" project="jboss-as-kitchensink-rf"/>
+      </attribute>
+     </component>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/mohta_000/.m2/repository/org/atmosphere/atmosphere-compat-jbossweb/1.0.18/atmosphere-compat-jbossweb-1.0.18.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-server/7.2.0.Final/jboss-as-server-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/logmanager/log4j-jboss-logmanager/1.0.1.Final/log4j-jboss-logmanager-1.0.1.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.2.Final-redhat-1/jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-version/7.2.0.Final/jboss-as-version-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.2/shrinkwrap-resolver-api-maven-2.0.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-deployment-repository/7.2.0.Final/jboss-as-deployment-repository-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-protocol/7.2.0.Final/jboss-as-protocol-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/vfs/jbosgi-vfs30/1.2.0.Final/jbosgi-vfs30-1.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/staxmapper/1.1.0.Final/staxmapper-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/metadata/jbosgi-metadata/2.1.1.CR9/jbosgi-metadata-2.1.1.CR9.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/maven-repository-metadata/3.0.5/maven-repository-metadata-3.0.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-ee/7.2.0.Final/jboss-as-ee-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.0.Final/arquillian-testenricher-resource-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.1.0.Final/arquillian-testenricher-ejb-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/logging/jboss-logging/3.1.2.GA-redhat-1/jboss-logging-3.1.2.GA-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-validator/4.3.1.Final-redhat-1/hibernate-validator-4.3.1.Final-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-jmx/7.2.0.Final/jboss-as-jmx-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final-redhat-2/hibernate-jpa-2.0-api-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.0.Final/arquillian-protocol-servlet-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-controller/7.2.0.Final/jboss-as-controller-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/1.3.16.GA/jboss-marshalling-river-1.3.16.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/maven-settings/3.0.5/maven-settings-3.0.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/com/google/guava/guava/13.0.1-redhat-1/guava-13.0.1-redhat-1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/maven-aether-provider/3.0.5/maven-aether-provider-3.0.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.1.0.Final/arquillian-testenricher-cdi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/atmosphere/atmosphere-compat-tomcat7/1.0.18/atmosphere-compat-tomcat7-1.0.18.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/stdio/jboss-stdio/1.0.1.GA/jboss-stdio-1.0.1.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/2.0.2/shrinkwrap-resolver-impl-maven-2.0.2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/ocpsoft/rewrite/rewrite-servlet/1.0.4.Final/rewrite-servlet-1.0.4.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-platform-mbean/7.2.0.Final/jboss-as-platform-mbean-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/javax/validation/validation-api/1.0.0.GA-redhat-2/validation-api-1.0.0.GA-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-network/7.2.0.Final/jboss-as-network-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jdeparser/jdeparser/1.0.0.Final/jdeparser-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar"/>
+  <path value="C:/Program Files/Java/jdk1.7.0_45/lib/tools.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/sasl/jboss-sasl/1.0.3.Final/jboss-sasl-1.0.3.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/modules/jboss-modules/1.2.0.CR1/jboss-modules-1.2.0.CR1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/atmosphere/atmosphere-compat-tomcat/1.0.18/atmosphere-compat-tomcat-1.0.18.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/ocpsoft/rewrite/rewrite-integration-cdi/1.0.4.Final/rewrite-integration-cdi-1.0.4.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.0.Final/arquillian-junit-core-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-naming/7.2.0.Final/jboss-as-naming-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/resolver/jbosgi-resolver-api/3.0.1.Final/jbosgi-resolver-api-3.0.1.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/logging/jboss-logging-processor/1.1.0.Final/jboss-logging-processor-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_1.1_spec/1.0.1.Final-redhat-2/jboss-jaxrs-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/logmanager/jboss-logmanager/1.4.0.Final/jboss-logmanager-1.4.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/maven-settings-builder/3.0.5/maven-settings-builder-3.0.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-build-config/7.2.0.Final/jboss-as-build-config-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.0.Final/arquillian-container-test-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/msc/jboss-msc/1.0.4.GA/jboss-msc-1.0.4.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/repository/jbosgi-repository-api/2.1.0.Final/jbosgi-repository-api-2.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.0.Final/arquillian-junit-container-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/osgi/resolver/jbosgi-resolver-felix/3.0.1.Final/jbosgi-resolver-felix-3.0.1.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.0.Final/arquillian-container-test-impl-base-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/apache/maven/maven-model/3.0.5/maven-model-3.0.5.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/jboss-ejb-client/1.0.0.Final/jboss-ejb-client-1.0.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final-redhat-2/jboss-transaction-api_1.1_spec-1.0.1.Final-redhat-2.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/xnio/xnio-nio/3.0.7.GA/xnio-nio-3.0.7.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/remoting3/jboss-remoting/3.2.12.GA/jboss-remoting-3.2.12.GA.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.0.Final/arquillian-core-spi-1.1.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/as/jboss-as-controller-client/7.2.0.Final/jboss-as-controller-client-7.2.0.Final.jar"/>
+  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/invocation/jboss-invocation/1.1.1.Final/jboss-invocation-1.1.1.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%3;" path="%2"/>
+   <linked-resource name="%5;" path="%4"/>
+  </core>
+  <el>
+   <linked-el length="77" name="%6" offset="1631" path="%7"/>
+   <linked-el length="92" name="%6" offset="2033" path="%7"/>
+   <linked-el length="86" name="%6" offset="1491" path="%7"/>
+   <linked-el length="31" name="%8" offset="2015" path="%4"/>
+   <linked-el length="29" name="%8" offset="1747" path="%9"/>
+   <linked-el length="31" name="%8" offset="1417" path="%2"/>
+   <linked-el length="29" name="%8" offset="3060" path="%4"/>
+   <linked-el length="23" name="%10" offset="1849" path="%9"/>
+   <linked-el length="22" name="%10" offset="2470" path="%11"/>
+   <linked-el length="55" name="%10" offset="2268" path="%11"/>
+   <linked-el length="21" name="%12" offset="15156" path="%13"/>
+   <linked-el length="21" name="%12" offset="10703" path="%13"/>
+   <linked-el length="29" name="%14" offset="11335" path="%13"/>
+   <linked-el length="31" name="%15" offset="2015" path="%4"/>
+   <linked-el length="31" name="%15" offset="1417" path="%2"/>
+   <linked-el length="38" name="%16" offset="4308" path="%4"/>
+   <linked-el length="52" name="%16" offset="4069" path="%4"/>
+   <linked-el length="37" name="%16" offset="2743" path="%9"/>
+   <linked-el length="24" name="%17" offset="4480" path="%13"/>
+   <linked-el length="24" name="%17" offset="3991" path="%13"/>
+   <linked-el length="24" name="%17" offset="3253" path="%18"/>
+   <linked-el length="24" name="%17" offset="3683" path="%13"/>
+   <linked-el length="33" name="%19" offset="1280" path="%20"/>
+   <linked-el length="24" name="%21" offset="4480" path="%13"/>
+   <linked-el length="26" name="%21" offset="12948" path="%13"/>
+   <linked-el length="26" name="%21" offset="12123" path="%13"/>
+   <linked-el length="21" name="%21" offset="15156" path="%13"/>
+   <linked-el length="26" name="%21" offset="13930" path="%13"/>
+   <linked-el length="24" name="%21" offset="3991" path="%13"/>
+   <linked-el length="29" name="%21" offset="11335" path="%13"/>
+   <linked-el length="24" name="%21" offset="3253" path="%18"/>
+   <linked-el length="21" name="%21" offset="10703" path="%13"/>
+   <linked-el length="26" name="%21" offset="2896" path="%18"/>
+   <linked-el length="24" name="%21" offset="3683" path="%13"/>
+   <linked-el length="56" name="%22" offset="3290" path="%4"/>
+   <linked-el length="46" name="%22" offset="2395" path="%9"/>
+   <linked-el length="59" name="%22" offset="3654" path="%4"/>
+   <linked-el length="43" name="%22" offset="2047" path="%9"/>
+   <linked-el length="65" name="%22" offset="3841" path="%4"/>
+   <linked-el length="58" name="%22" offset="3470" path="%4"/>
+   <linked-el length="52" name="%22" offset="2590" path="%9"/>
+   <linked-el length="12" name="%22" offset="1782" path="%9"/>
+   <linked-el length="52" name="%22" offset="4069" path="%4"/>
+   <linked-el length="12" name="%22" offset="3095" path="%4"/>
+   <linked-el length="27" name="%22" offset="4143" path="%4"/>
+   <linked-el length="45" name="%22" offset="2203" path="%9"/>
+   <linked-el length="21" name="%23" offset="15156" path="%13"/>
+   <linked-el length="21" name="%23" offset="10703" path="%13"/>
+   <linked-el length="46" name="%24" offset="2395" path="%9"/>
+   <linked-el length="59" name="%24" offset="3654" path="%4"/>
+   <linked-el length="18" name="%25" offset="2832" path="%11"/>
+   <linked-el length="23" name="%25" offset="1849" path="%9"/>
+   <linked-el length="22" name="%25" offset="2470" path="%11"/>
+   <linked-el length="55" name="%25" offset="2268" path="%11"/>
+   <linked-el length="77" name="%26" offset="1631" path="%7"/>
+   <linked-el length="92" name="%26" offset="2033" path="%7"/>
+   <linked-el length="86" name="%26" offset="1491" path="%7"/>
+   <linked-el length="94" name="%26" offset="1503" path="%2"/>
+   <linked-el length="38" name="%27" offset="4308" path="%4"/>
+   <linked-el length="52" name="%27" offset="4069" path="%4"/>
+   <linked-el length="37" name="%27" offset="2743" path="%9"/>
+   <linked-el length="33" name="%28" offset="1280" path="%20"/>
+   <linked-el length="13" name="%29" offset="2668" path="%4"/>
+   <linked-el length="23" name="%29" offset="2690" path="%4"/>
+   <linked-el length="23" name="%29" offset="1375" path="%9"/>
+   <linked-el length="18" name="%29" offset="2505" path="%4"/>
+   <linked-el length="13" name="%29" offset="1353" path="%9"/>
+   <linked-el length="26" name="%30" offset="1708" path="%30"/>
+   <linked-el length="25" name="%30" offset="1481" path="%30"/>
+   <linked-el length="32" name="%30" offset="1951" path="%30"/>
+   <linked-el length="11" name="%31" offset="1332" path="%0"/>
+   <linked-el length="11" name="%31" offset="5088" path="%4"/>
+   <linked-el length="29" name="%32" offset="11335" path="%13"/>
+   <linked-el length="14" name="%33" offset="1902" path="%4"/>
+   <linked-el length="14" name="%33" offset="1352" path="%2"/>
+   <linked-el length="24" name="%34" offset="4480" path="%13"/>
+   <linked-el length="24" name="%34" offset="3253" path="%18"/>
+   <linked-el length="24" name="%34" offset="3683" path="%13"/>
+   <linked-el length="41" name="%35" offset="2926" path="%4"/>
+   <linked-el length="56" name="%35" offset="4870" path="%4"/>
+   <linked-el length="69" name="%35" offset="4552" path="%4"/>
+   <linked-el length="21" name="%36" offset="10547" path="%13"/>
+   <linked-el length="33" name="%37" offset="1280" path="%20"/>
+   <linked-el length="56" name="%38" offset="3290" path="%4"/>
+   <linked-el length="43" name="%38" offset="2047" path="%9"/>
+   <linked-el length="52" name="%38" offset="4069" path="%4"/>
+   <linked-el length="27" name="%38" offset="4143" path="%4"/>
+   <linked-el length="65" name="%39" offset="3841" path="%4"/>
+   <linked-el length="52" name="%39" offset="2590" path="%9"/>
+   <linked-el length="77" name="%40" offset="1631" path="%7"/>
+   <linked-el length="92" name="%40" offset="2033" path="%7"/>
+   <linked-el length="86" name="%40" offset="1491" path="%7"/>
+   <linked-el length="58" name="%41" offset="3470" path="%4"/>
+   <linked-el length="45" name="%41" offset="2203" path="%9"/>
+   <linked-el length="21" name="%42" offset="10547" path="%13"/>
+   <linked-el length="32" name="%43" offset="2464" path="%43"/>
+   <linked-el length="25" name="%43" offset="1536" path="%43"/>
+   <linked-el length="26" name="%43" offset="1992" path="%43"/>
+   <linked-el length="26" name="%44" offset="12948" path="%13"/>
+   <linked-el length="26" name="%44" offset="12123" path="%13"/>
+   <linked-el length="26" name="%44" offset="13930" path="%13"/>
+   <linked-el length="26" name="%44" offset="2896" path="%18"/>
+   <linked-el length="24" name="%45" offset="3991" path="%13"/>
+   <linked-el length="29" name="%46" offset="1747" path="%9"/>
+   <linked-el length="29" name="%46" offset="3060" path="%4"/>
+   <linked-el length="26" name="%47" offset="12948" path="%13"/>
+   <linked-el length="26" name="%47" offset="12123" path="%13"/>
+   <linked-el length="26" name="%47" offset="13930" path="%13"/>
+   <linked-el length="26" name="%47" offset="2896" path="%18"/>
+   <linked-el length="24" name="%48" offset="4480" path="%13"/>
+   <linked-el length="24" name="%48" offset="3991" path="%13"/>
+   <linked-el length="29" name="%48" offset="11335" path="%13"/>
+   <linked-el length="24" name="%48" offset="3253" path="%18"/>
+   <linked-el length="24" name="%48" offset="3683" path="%13"/>
+   <linked-el length="94" name="%49" offset="1503" path="%2"/>
+   <linked-el length="32" name="%50" offset="1737" path="%50"/>
+   <linked-el length="26" name="%50" offset="1602" path="%50"/>
+   <linked-el length="25" name="%50" offset="1482" path="%50"/>
+   <linked-el length="18" name="%51" offset="2832" path="%11"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="facesContext.externalContext" value="%6"/>
+  <alias path="/jboss-as-kitchensink-rf/pom.xml" value="%13"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/components:memberDetails" value="%1"/>
+  <alias path="version.war.plugin" value="%12"/>
+  <alias path="memberController.register" value="%15"/>
+  <alias path="version.jboss.maven.plugin" value="%14"/>
+  <alias path="demoNavigator.currentDemo.id" value="%19"/>
+  <alias path="_member" value="%22"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/WEB-INF/templates/mobile.xhtml" value="%7"/>
+  <alias path="pageBean" value="%25"/>
+  <alias path="request" value="%27"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/memberForm.xhtml" value="%30"/>
+  <alias path="newMember" value="%33"/>
+  <alias path="/jboss-as-kitchensink-rf/functional-tests/pom.xml" value="%18"/>
+  <alias path="_member.id" value="%38"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/mobile/detail.xhtml" value="%0"/>
+  <alias path="facesContext.externalContext.requestContextPath" value="%40"/>
+  <alias path="project" value="%42"/>
+  <alias path="/jboss-as-kitchensink-rf/src/main/webapp/index.xhtml" value="%4"/>
+  <alias path="version.jboss" value="%48"/>
+  <alias path="http://java.sun.com/jsf/composite/components:memberForm" value="%5"/>
+  <alias path="memberController" value="%8"/>
+  <alias path="pageBean.location" value="%10"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/mobile/new.xhtml" value="%2"/>
+  <alias path="request.contextPath" value="%16"/>
+  <alias path="version.jboss.bom" value="%17"/>
+  <alias path="version" value="%21"/>
+  <alias path="version.war" value="%23"/>
+  <alias path="_member.email" value="%24"/>
+  <alias path="facesContext" value="%26"/>
+  <alias path="demoNavigator" value="%28"/>
+  <alias path="members" value="%29"/>
+  <alias
+   path="http://java.sun.com/jsf/composite/components/mobile:memberForm" value="%3"/>
+  <alias path="member" value="%31"/>
+  <alias path="version.jboss.maven" value="%32"/>
+  <alias path="version.jboss.bom.wfk" value="%34"/>
+  <alias path="rich" value="%35"/>
+  <alias path="project.artifactId" value="%36"/>
+  <alias path="demoNavigator.currentDemo" value="%37"/>
+  <alias path="_member.phoneNumber" value="%39"/>
+  <alias path="_member.name" value="%41"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/mobile/memberForm.xhtml" value="%43"/>
+  <alias path="version.surefire.plugin" value="%44"/>
+  <alias path="version.jboss.bom.eap" value="%45"/>
+  <alias path="memberController.member" value="%46"/>
+  <alias path="version.surefire" value="%47"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/memberDetails.xhtml" value="%50"/>
+  <alias path="facesContext.validationFailed" value="%49"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/mobile/list.xhtml" value="%9"/>
+  <alias path="pageBean.page" value="%51"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/mobile/index.xhtml" value="%11"/>
+  <alias
+   path="/jboss-as-kitchensink-rf/src/main/webapp/mobile/home.xhtml" value="%20"/>
+  <alias path="%26" value="facesContext"/>
+  <alias path="%25" value="pageBean"/>
+  <alias path="%28" value="demoNavigator"/>
+  <alias path="%27" value="request"/>
+  <alias path="%29" value="members"/>
+  <alias path="%20" value="/jboss-as-kitchensink-rf/src/main/webapp/mobile/home.xhtml"/>
+  <alias path="%22" value="_member"/>
+  <alias path="%21" value="version"/>
+  <alias path="%24" value="_member.email"/>
+  <alias path="%23" value="version.war"/>
+  <alias path="%17" value="version.jboss.bom"/>
+  <alias path="%16" value="request.contextPath"/>
+  <alias path="%15" value="memberController.register"/>
+  <alias path="%50" value="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/memberDetails.xhtml"/>
+  <alias path="%51" value="pageBean.page"/>
+  <alias path="%14" value="version.jboss.maven.plugin"/>
+  <alias path="%19" value="demoNavigator.currentDemo.id"/>
+  <alias path="%18" value="/jboss-as-kitchensink-rf/functional-tests/pom.xml"/>
+  <alias path="%13" value="/jboss-as-kitchensink-rf/pom.xml"/>
+  <alias path="%12" value="version.war.plugin"/>
+  <alias path="%11" value="/jboss-as-kitchensink-rf/src/main/webapp/mobile/index.xhtml"/>
+  <alias path="%10" value="pageBean.location"/>
+  <alias path="%48" value="version.jboss"/>
+  <alias path="%47" value="version.surefire"/>
+  <alias path="%49" value="facesContext.validationFailed"/>
+  <alias path="%44" value="version.surefire.plugin"/>
+  <alias path="%43" value="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/mobile/memberForm.xhtml"/>
+  <alias path="%46" value="memberController.member"/>
+  <alias path="%45" value="version.jboss.bom.eap"/>
+  <alias path="%40" value="facesContext.externalContext.requestContextPath"/>
+  <alias path="%42" value="project"/>
+  <alias path="%41" value="_member.name"/>
+  <alias path="%0" value="/jboss-as-kitchensink-rf/src/main/webapp/mobile/detail.xhtml"/>
+  <alias path="%4" value="/jboss-as-kitchensink-rf/src/main/webapp/index.xhtml"/>
+  <alias path="%3" value="http://java.sun.com/jsf/composite/components/mobile:memberForm"/>
+  <alias path="%2" value="/jboss-as-kitchensink-rf/src/main/webapp/mobile/new.xhtml"/>
+  <alias path="%1" value="http://java.sun.com/jsf/composite/components:memberDetails"/>
+  <alias path="%7" value="/jboss-as-kitchensink-rf/src/main/webapp/WEB-INF/templates/mobile.xhtml"/>
+  <alias path="%8" value="memberController"/>
+  <alias path="%5" value="http://java.sun.com/jsf/composite/components:memberForm"/>
+  <alias path="%6" value="facesContext.externalContext"/>
+  <alias path="%39" value="_member.phoneNumber"/>
+  <alias path="%38" value="_member.id"/>
+  <alias path="%9" value="/jboss-as-kitchensink-rf/src/main/webapp/mobile/list.xhtml"/>
+  <alias path="%37" value="demoNavigator.currentDemo"/>
+  <alias path="%36" value="project.artifactId"/>
+  <alias path="%35" value="rich"/>
+  <alias path="%34" value="version.jboss.bom.wfk"/>
+  <alias path="%33" value="newMember"/>
+  <alias path="%32" value="version.jboss.maven"/>
+  <alias path="%31" value="member"/>
+  <alias path="%30" value="/jboss-as-kitchensink-rf/src/main/webapp/resources/components/memberForm.xhtml"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://richfaces.org/a4j">
+   <prefix>a4j</prefix>
+  </uri>
+  <uri value="http://richfaces.org/rich">
+   <prefix>rich</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/composite/components">
+   <prefix>my</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/composite/components/mobile">
+   <prefix>mobile</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+ </uris>
+</kb-project>

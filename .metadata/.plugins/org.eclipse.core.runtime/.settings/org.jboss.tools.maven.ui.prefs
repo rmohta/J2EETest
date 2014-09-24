@@ -1,0 +1,7 @@
+configureCDI=false
+configureHibernate=false
+configureJSFPortlet=false
+configurePortlet=false
+configureSeam=false
+configureSeamPortlet=false
+eclipse.preferences.version=1
