@@ -1,0 +1,5 @@
+package org.jboss.as.quickstarts.spring.config;
+
+public class MainConfig {
+
+}

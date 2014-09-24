@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jboss.as.quickstarts.spring.config.MainConfig&apos; to &apos;AppConfig&apos;&#x0D;&#x0A;- Original project: &apos;jboss-as-jdbc-multipleds-rs&apos;&#x0D;&#x0A;- Original element: &apos;org.jboss.as.quickstarts.spring.config.MainConfig&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jboss.as.quickstarts.spring.config.AppConfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MainConfig&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;org.jboss.as.quickstarts.spring.config{MainConfig.java[MainConfig" matchStrategy="1" name="AppConfig" qualified="false" references="true" similarDeclarations="false" stamp="1411487587230" textual="false" version="1.0"/>
+</session>

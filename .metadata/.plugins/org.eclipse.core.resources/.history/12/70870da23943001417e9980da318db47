@@ -1,0 +1,20 @@
+package org.jboss.as.quickstarts.spring.config;
+
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * <table>
+ * <tr>
+ * <th>Element</th><th>Description</th>
+ * </tr>
+ * 
+ * </table>
+ * 
+ * @author Rohit Mohta
+ * @since Sep 23, 2014
+ *
+ */
+@Configuration
+public class MainConfig {
+
+}

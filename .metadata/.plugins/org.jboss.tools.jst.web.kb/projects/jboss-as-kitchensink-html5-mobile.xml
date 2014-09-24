@@ -3,252 +3,237 @@
  <depends-on-projects/>
  <used-by-projects/>
  <paths>
-  <path value="C:/Users/mohta_000/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.0.0/shrinkwrap-impl-base-1.0.0.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.0.0.Final/arquillian-config-api-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.0.0.Final/arquillian-core-impl-base-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.0.0.Final/arquillian-test-api-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.0.0.Final/arquillian-core-api-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/junit/junit/4.10/junit-4.10.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.1.Final/jboss-servlet-api_3.0_spec-1.0.1.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.0.0.Final/arquillian-container-spi-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/hibernate-jpamodelgen/1.1.1.Final/hibernate-jpamodelgen-1.1.1.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.0.0.Final/arquillian-test-impl-base-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.0.0/shrinkwrap-spi-1.0.0.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.0.0.Final/arquillian-junit-core-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_1.1_spec/1.0.0.Final/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar"/>
-  <path value="C:/Users/mohta_000/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="D:/m2repository/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4.jar"/>
+  <path value="D:/m2repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+  <path value="D:/m2repository/junit/junit/4.10/junit-4.10.jar"/>
+  <path value="D:/m2repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.1.Final/jboss-servlet-api_3.0_spec-1.0.1.Final.jar"/>
+  <path value="D:/m2repository/org/jboss/spec/javax/annotation/jboss-annotations-api_1.1_spec/1.0.1.Final/jboss-annotations-api_1.1_spec-1.0.1.Final.jar"/>
+  <path value="D:/m2repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <path value="D:/m2repository/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_1.1_spec/1.0.0.Final/jboss-jaxrs-api_1.1_spec-1.0.0.Final.jar"/>
+  <path value="D:/m2repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.1.Final/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core">
-   <linked-resource name="%1;%2;%3;%4;" path="%0"/>
-   <linked-resource name="%1;" path="%5"/>
-   <linked-resource name="%4;" path="%6"/>
-   <linked-resource name="%1;" path="%7"/>
+   <linked-resource name="%1;%2;%3;" path="%0"/>
+   <linked-resource name="%1;" path="%4"/>
+   <linked-resource name="%3;" path="%5"/>
+   <linked-resource name="%1;" path="%6"/>
   </core>
   <el>
-   <linked-el length="24" name="%8" offset="9197" path="%9"/>
-   <linked-el length="24" name="%8" offset="9135" path="%9"/>
-   <linked-el length="24" name="%10" offset="9197" path="%9"/>
-   <linked-el length="26" name="%11" offset="9982" path="%9"/>
-   <linked-el length="26" name="%12" offset="9038" path="%9"/>
-   <linked-el length="26" name="%13" offset="13767" path="%9"/>
-   <linked-el length="21" name="%14" offset="12661" path="%9"/>
-   <linked-el length="21" name="%14" offset="9390" path="%9"/>
-   <linked-el length="36" name="%15" offset="7493" path="%9"/>
-   <linked-el length="26" name="%16" offset="9982" path="%9"/>
-   <linked-el length="24" name="%17" offset="15413" path="%9"/>
-   <linked-el length="24" name="%17" offset="14420" path="%9"/>
-   <linked-el length="25" name="%18" offset="10229" path="%9"/>
-   <linked-el length="25" name="%19" offset="10229" path="%9"/>
-   <linked-el length="93" name="%19" offset="19043" path="%9"/>
-   <linked-el length="26" name="%19" offset="16527" path="%9"/>
-   <linked-el length="23" name="%19" offset="17966" path="%9"/>
-   <linked-el length="26" name="%19" offset="9038" path="%9"/>
-   <linked-el length="23" name="%19" offset="20291" path="%9"/>
-   <linked-el length="36" name="%19" offset="7493" path="%9"/>
-   <linked-el length="24" name="%19" offset="15413" path="%9"/>
-   <linked-el length="21" name="%19" offset="12661" path="%9"/>
-   <linked-el length="34" name="%19" offset="6871" path="%9"/>
-   <linked-el length="31" name="%19" offset="8206" path="%9"/>
-   <linked-el length="26" name="%19" offset="18785" path="%9"/>
-   <linked-el length="23" name="%19" offset="18406" path="%9"/>
-   <linked-el length="16" name="%19" offset="7789" path="%9"/>
-   <linked-el length="21" name="%19" offset="9390" path="%9"/>
-   <linked-el length="42" name="%19" offset="4441" path="%9"/>
-   <linked-el length="23" name="%19" offset="17360" path="%9"/>
-   <linked-el length="26" name="%19" offset="11773" path="%9"/>
-   <linked-el length="24" name="%19" offset="14420" path="%9"/>
-   <linked-el length="31" name="%19" offset="8471" path="%9"/>
-   <linked-el length="26" name="%19" offset="13767" path="%9"/>
-   <linked-el length="21" name="%20" offset="12661" path="%9"/>
-   <linked-el length="21" name="%20" offset="9390" path="%9"/>
-   <linked-el length="93" name="%21" offset="19043" path="%9"/>
-   <linked-el length="26" name="%21" offset="20386" path="%9"/>
-   <linked-el length="58" name="%21" offset="15974" path="%9"/>
-   <linked-el length="57" name="%21" offset="16105" path="%9"/>
-   <linked-el length="58" name="%22" offset="15974" path="%9"/>
-   <linked-el length="57" name="%22" offset="16105" path="%9"/>
-   <linked-el length="42" name="%23" offset="4441" path="%9"/>
-   <linked-el length="93" name="%24" offset="19043" path="%9"/>
-   <linked-el length="23" name="%24" offset="17966" path="%9"/>
-   <linked-el length="31" name="%24" offset="8206" path="%9"/>
-   <linked-el length="23" name="%24" offset="18406" path="%9"/>
-   <linked-el length="42" name="%24" offset="4441" path="%9"/>
-   <linked-el length="23" name="%24" offset="17360" path="%9"/>
-   <linked-el length="23" name="%24" offset="20291" path="%9"/>
-   <linked-el length="31" name="%24" offset="8471" path="%9"/>
-   <linked-el length="93" name="%25" offset="19043" path="%9"/>
-   <linked-el length="34" name="%25" offset="6871" path="%9"/>
-   <linked-el length="23" name="%25" offset="17966" path="%9"/>
-   <linked-el length="31" name="%25" offset="8206" path="%9"/>
-   <linked-el length="23" name="%25" offset="18406" path="%9"/>
-   <linked-el length="42" name="%25" offset="4441" path="%9"/>
-   <linked-el length="23" name="%25" offset="17360" path="%9"/>
-   <linked-el length="23" name="%25" offset="20291" path="%9"/>
-   <linked-el length="31" name="%25" offset="8471" path="%9"/>
-   <linked-el length="26" name="%25" offset="13767" path="%9"/>
-   <linked-el length="36" name="%25" offset="7493" path="%9"/>
-   <linked-el length="26" name="%26" offset="13767" path="%9"/>
-   <linked-el length="25" name="%27" offset="10229" path="%9"/>
-   <linked-el length="16" name="%28" offset="7789" path="%9"/>
-   <linked-el length="24" name="%29" offset="1968" path="%30"/>
-   <linked-el length="31" name="%31" offset="8206" path="%9"/>
-   <linked-el length="31" name="%31" offset="8471" path="%9"/>
-   <linked-el length="26" name="%32" offset="9982" path="%9"/>
-   <linked-el length="26" name="%33" offset="9982" path="%9"/>
-   <linked-el length="24" name="%34" offset="9197" path="%9"/>
-   <linked-el length="24" name="%34" offset="9135" path="%9"/>
-   <linked-el length="34" name="%35" offset="6871" path="%9"/>
-   <linked-el length="36" name="%35" offset="7493" path="%9"/>
-   <linked-el length="21" name="%36" offset="8772" path="%9"/>
-   <linked-el length="26" name="%37" offset="9038" path="%9"/>
-   <linked-el length="42" name="%38" offset="4441" path="%9"/>
-   <linked-el length="24" name="%39" offset="9135" path="%9"/>
-   <linked-el length="93" name="%40" offset="19043" path="%9"/>
-   <linked-el length="26" name="%40" offset="20386" path="%9"/>
-   <linked-el length="21" name="%40" offset="8772" path="%9"/>
-   <linked-el length="58" name="%40" offset="15974" path="%9"/>
-   <linked-el length="57" name="%40" offset="16105" path="%9"/>
-   <linked-el length="24" name="%41" offset="15413" path="%9"/>
-   <linked-el length="24" name="%41" offset="14420" path="%9"/>
-   <linked-el length="26" name="%42" offset="16527" path="%9"/>
-   <linked-el length="26" name="%42" offset="18785" path="%9"/>
-   <linked-el length="26" name="%42" offset="11773" path="%9"/>
-   <linked-el length="24" name="%43" offset="1968" path="%30"/>
-   <linked-el length="24" name="%44" offset="15413" path="%9"/>
-   <linked-el length="24" name="%44" offset="14420" path="%9"/>
-   <linked-el length="26" name="%45" offset="16527" path="%9"/>
-   <linked-el length="26" name="%45" offset="18785" path="%9"/>
-   <linked-el length="26" name="%45" offset="11773" path="%9"/>
-   <linked-el length="34" name="%46" offset="6871" path="%9"/>
-   <linked-el length="93" name="%47" offset="19043" path="%9"/>
-   <linked-el length="23" name="%47" offset="17966" path="%9"/>
-   <linked-el length="23" name="%47" offset="18406" path="%9"/>
-   <linked-el length="23" name="%47" offset="17360" path="%9"/>
-   <linked-el length="23" name="%47" offset="20291" path="%9"/>
-   <linked-el length="93" name="%48" offset="19043" path="%9"/>
-   <linked-el length="26" name="%48" offset="20386" path="%9"/>
-   <linked-el length="58" name="%48" offset="15974" path="%9"/>
-   <linked-el length="57" name="%48" offset="16105" path="%9"/>
-   <linked-el length="42" name="%49" offset="4441" path="%9"/>
+   <linked-el length="24" name="%7" offset="9331" path="%8"/>
+   <linked-el length="24" name="%7" offset="9394" path="%8"/>
+   <linked-el length="26" name="%9" offset="10195" path="%8"/>
+   <linked-el length="24" name="%10" offset="9394" path="%8"/>
+   <linked-el length="26" name="%11" offset="9232" path="%8"/>
+   <linked-el length="26" name="%12" offset="14062" path="%8"/>
+   <linked-el length="21" name="%13" offset="9592" path="%8"/>
+   <linked-el length="21" name="%13" offset="12932" path="%8"/>
+   <linked-el length="36" name="%14" offset="7649" path="%8"/>
+   <linked-el length="26" name="%15" offset="10195" path="%8"/>
+   <linked-el length="24" name="%16" offset="15737" path="%8"/>
+   <linked-el length="24" name="%16" offset="14725" path="%8"/>
+   <linked-el length="25" name="%17" offset="10448" path="%8"/>
+   <linked-el length="23" name="%18" offset="17719" path="%8"/>
+   <linked-el length="36" name="%18" offset="7649" path="%8"/>
+   <linked-el length="42" name="%18" offset="4523" path="%8"/>
+   <linked-el length="26" name="%18" offset="9232" path="%8"/>
+   <linked-el length="21" name="%18" offset="9592" path="%8"/>
+   <linked-el length="26" name="%18" offset="19179" path="%8"/>
+   <linked-el length="31" name="%18" offset="8651" path="%8"/>
+   <linked-el length="26" name="%18" offset="14062" path="%8"/>
+   <linked-el length="94" name="%18" offset="19441" path="%8"/>
+   <linked-el length="26" name="%18" offset="16869" path="%8"/>
+   <linked-el length="31" name="%18" offset="8379" path="%8"/>
+   <linked-el length="26" name="%18" offset="12026" path="%8"/>
+   <linked-el length="23" name="%18" offset="18339" path="%8"/>
+   <linked-el length="34" name="%18" offset="7011" path="%8"/>
+   <linked-el length="24" name="%18" offset="15737" path="%8"/>
+   <linked-el length="25" name="%18" offset="10448" path="%8"/>
+   <linked-el length="23" name="%18" offset="20712" path="%8"/>
+   <linked-el length="16" name="%18" offset="7953" path="%8"/>
+   <linked-el length="23" name="%18" offset="18791" path="%8"/>
+   <linked-el length="24" name="%18" offset="14725" path="%8"/>
+   <linked-el length="21" name="%18" offset="12932" path="%8"/>
+   <linked-el length="21" name="%19" offset="9592" path="%8"/>
+   <linked-el length="21" name="%19" offset="12932" path="%8"/>
+   <linked-el length="58" name="%20" offset="16309" path="%8"/>
+   <linked-el length="57" name="%20" offset="16441" path="%8"/>
+   <linked-el length="94" name="%20" offset="19441" path="%8"/>
+   <linked-el length="26" name="%20" offset="20808" path="%8"/>
+   <linked-el length="58" name="%21" offset="16309" path="%8"/>
+   <linked-el length="57" name="%21" offset="16441" path="%8"/>
+   <linked-el length="42" name="%22" offset="4523" path="%8"/>
+   <linked-el length="23" name="%23" offset="18339" path="%8"/>
+   <linked-el length="23" name="%23" offset="17719" path="%8"/>
+   <linked-el length="42" name="%23" offset="4523" path="%8"/>
+   <linked-el length="31" name="%23" offset="8651" path="%8"/>
+   <linked-el length="23" name="%23" offset="20712" path="%8"/>
+   <linked-el length="94" name="%23" offset="19441" path="%8"/>
+   <linked-el length="23" name="%23" offset="18791" path="%8"/>
+   <linked-el length="31" name="%23" offset="8379" path="%8"/>
+   <linked-el length="23" name="%24" offset="18339" path="%8"/>
+   <linked-el length="23" name="%24" offset="17719" path="%8"/>
+   <linked-el length="36" name="%24" offset="7649" path="%8"/>
+   <linked-el length="42" name="%24" offset="4523" path="%8"/>
+   <linked-el length="34" name="%24" offset="7011" path="%8"/>
+   <linked-el length="31" name="%24" offset="8651" path="%8"/>
+   <linked-el length="23" name="%24" offset="20712" path="%8"/>
+   <linked-el length="26" name="%24" offset="14062" path="%8"/>
+   <linked-el length="94" name="%24" offset="19441" path="%8"/>
+   <linked-el length="23" name="%24" offset="18791" path="%8"/>
+   <linked-el length="31" name="%24" offset="8379" path="%8"/>
+   <linked-el length="26" name="%25" offset="14062" path="%8"/>
+   <linked-el length="25" name="%26" offset="10448" path="%8"/>
+   <linked-el length="16" name="%27" offset="7953" path="%8"/>
+   <linked-el length="31" name="%28" offset="8651" path="%8"/>
+   <linked-el length="31" name="%28" offset="8379" path="%8"/>
+   <linked-el length="24" name="%29" offset="2011" path="%30"/>
+   <linked-el length="26" name="%31" offset="10195" path="%8"/>
+   <linked-el length="26" name="%32" offset="10195" path="%8"/>
+   <linked-el length="24" name="%33" offset="9331" path="%8"/>
+   <linked-el length="24" name="%33" offset="9394" path="%8"/>
+   <linked-el length="21" name="%34" offset="8961" path="%8"/>
+   <linked-el length="36" name="%35" offset="7649" path="%8"/>
+   <linked-el length="34" name="%35" offset="7011" path="%8"/>
+   <linked-el length="26" name="%36" offset="9232" path="%8"/>
+   <linked-el length="42" name="%37" offset="4523" path="%8"/>
+   <linked-el length="24" name="%38" offset="9331" path="%8"/>
+   <linked-el length="58" name="%39" offset="16309" path="%8"/>
+   <linked-el length="21" name="%39" offset="8961" path="%8"/>
+   <linked-el length="57" name="%39" offset="16441" path="%8"/>
+   <linked-el length="94" name="%39" offset="19441" path="%8"/>
+   <linked-el length="26" name="%39" offset="20808" path="%8"/>
+   <linked-el length="24" name="%40" offset="15737" path="%8"/>
+   <linked-el length="24" name="%40" offset="14725" path="%8"/>
+   <linked-el length="26" name="%41" offset="19179" path="%8"/>
+   <linked-el length="26" name="%41" offset="16869" path="%8"/>
+   <linked-el length="26" name="%41" offset="12026" path="%8"/>
+   <linked-el length="24" name="%42" offset="2011" path="%30"/>
+   <linked-el length="24" name="%43" offset="15737" path="%8"/>
+   <linked-el length="24" name="%43" offset="14725" path="%8"/>
+   <linked-el length="26" name="%44" offset="19179" path="%8"/>
+   <linked-el length="26" name="%44" offset="16869" path="%8"/>
+   <linked-el length="26" name="%44" offset="12026" path="%8"/>
+   <linked-el length="34" name="%45" offset="7011" path="%8"/>
+   <linked-el length="23" name="%46" offset="18339" path="%8"/>
+   <linked-el length="23" name="%46" offset="17719" path="%8"/>
+   <linked-el length="23" name="%46" offset="20712" path="%8"/>
+   <linked-el length="94" name="%46" offset="19441" path="%8"/>
+   <linked-el length="23" name="%46" offset="18791" path="%8"/>
+   <linked-el length="58" name="%47" offset="16309" path="%8"/>
+   <linked-el length="57" name="%47" offset="16441" path="%8"/>
+   <linked-el length="94" name="%47" offset="19441" path="%8"/>
+   <linked-el length="26" name="%47" offset="20808" path="%8"/>
+   <linked-el length="42" name="%48" offset="4523" path="%8"/>
   </el>
  </validation>
  <aliases>
-  <alias path="maven" value="%8"/>
-  <alias path="jboss.as.plugin" value="%11"/>
-  <alias path="version.org.eclipse" value="%13"/>
-  <alias path="version.war.plugin" value="%14"/>
-  <alias path="version.license" value="%18"/>
-  <alias path="version.ro.isdc.wro4j" value="%17"/>
+  <alias path="maven" value="%7"/>
+  <alias path="jboss.as.plugin" value="%9"/>
+  <alias path="version.org.eclipse" value="%12"/>
+  <alias path="version.war.plugin" value="%13"/>
+  <alias path="version.license" value="%17"/>
+  <alias path="version.ro.isdc.wro4j" value="%16"/>
   <alias
-   path="\jboss-as-kitchensink-html5-mobile\src\test\java\org\jboss\as\quickstarts\html5_mobile\test\MemberRegistrationTest.java" value="%4"/>
-  <alias path="project.build.directory" value="%21"/>
-  <alias path="project.build.finalName" value="%22"/>
-  <alias path="version.org.jboss.spec" value="%23"/>
-  <alias path="version.org.eclipse.m2e" value="%26"/>
+   path="\jboss-as-kitchensink-html5-mobile\src\test\java\org\jboss\as\quickstarts\html5_mobile\test\MemberRegistrationTest.java" value="%3"/>
+  <alias path="project.build.directory" value="%20"/>
+  <alias path="project.build.finalName" value="%21"/>
+  <alias path="version.org.jboss.spec" value="%22"/>
+  <alias path="version.org.eclipse.m2e" value="%25"/>
+  <alias path="version.org.jboss.arquillian" value="%28"/>
   <alias path="arquillian" value="%29"/>
-  <alias path="version.org.jboss.arquillian" value="%31"/>
-  <alias path="maven.compiler" value="%34"/>
-  <alias path="version.org.jboss.spec.jboss" value="%38"/>
-  <alias path="maven.compiler.source" value="%39"/>
+  <alias path="maven.compiler" value="%33"/>
+  <alias path="version.org.jboss.spec.jboss" value="%37"/>
+  <alias path="maven.compiler.source" value="%38"/>
   <alias
    path="\jboss-as-kitchensink-html5-mobile\src\main\java\org\jboss\as\quickstarts\html5_mobile\service\MemberRegistration.java" value="%2"/>
-  <alias path="project" value="%40"/>
-  <alias path="version.ro" value="%41"/>
-  <alias path="arquillian.jboss_home" value="%43"/>
+  <alias path="project" value="%39"/>
+  <alias path="version.ro" value="%40"/>
+  <alias path="arquillian.jboss_home" value="%42"/>
   <alias
    path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/util/Resources.java" value="%0"/>
-  <alias path="version.ro.isdc" value="%44"/>
-  <alias path="version.org.hibernate.validator" value="%46"/>
-  <alias path="/jboss-as-kitchensink-html5-mobile/pom.xml" value="%9"/>
-  <alias path="version.org.jboss.as" value="%47"/>
-  <alias path="project.build" value="%48"/>
+  <alias path="version.ro.isdc" value="%43"/>
+  <alias path="version.org.hibernate.validator" value="%45"/>
+  <alias path="/jboss-as-kitchensink-html5-mobile/pom.xml" value="%8"/>
+  <alias path="version.org.jboss.as" value="%46"/>
   <alias
    path="/jboss-as-kitchensink-html5-mobile/src/test/resources/arquillian.xml" value="%30"/>
+  <alias path="project.build" value="%47"/>
   <alias path="maven.compiler.target" value="%10"/>
-  <alias path="version.compiler.plugin" value="%12"/>
-  <alias path="jpamodelgen" value="%15"/>
-  <alias path="jboss" value="%16"/>
-  <alias path="version" value="%19"/>
-  <alias path="version.war" value="%20"/>
+  <alias path="version.compiler.plugin" value="%11"/>
+  <alias path="jpamodelgen" value="%14"/>
+  <alias path="jboss" value="%15"/>
+  <alias path="version" value="%18"/>
+  <alias path="version.war" value="%19"/>
+  <alias path="version.org.jboss" value="%23"/>
+  <alias path="version.org" value="%24"/>
+  <alias path="version.license.plugin" value="%26"/>
+  <alias path="version.junit" value="%27"/>
+  <alias path="jboss.as" value="%31"/>
+  <alias path="jboss.as.plugin.version" value="%32"/>
   <alias
-   path="\jboss-as-kitchensink-html5-mobile\src\main\java\org\jboss\as\quickstarts\html5_mobile\data\MemberRepository.java" value="%3"/>
-  <alias path="version.org.jboss" value="%24"/>
-  <alias path="version.org" value="%25"/>
-  <alias path="version.license.plugin" value="%27"/>
-  <alias path="version.junit" value="%28"/>
-  <alias path="jboss.as" value="%32"/>
-  <alias path="jboss.as.plugin.version" value="%33"/>
-  <alias
-   path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/service/MemberRegistration.java" value="%7"/>
+   path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/service/MemberRegistration.java" value="%6"/>
+  <alias path="project.artifactId" value="%34"/>
   <alias path="version.org.hibernate" value="%35"/>
-  <alias path="project.artifactId" value="%36"/>
-  <alias path="version.compiler" value="%37"/>
+  <alias path="version.compiler" value="%36"/>
   <alias
    path="\jboss-as-kitchensink-html5-mobile\src\main\java\org\jboss\as\quickstarts\html5_mobile\rest\MemberService.java" value="%1"/>
   <alias
-   path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/rest/MemberService.java" value="%6"/>
-  <alias path="version.surefire.plugin" value="%42"/>
-  <alias path="version.surefire" value="%45"/>
-  <alias path="version.org.jboss.spec.jboss.javaee" value="%49"/>
+   path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/rest/MemberService.java" value="%5"/>
+  <alias path="version.surefire.plugin" value="%41"/>
+  <alias path="version.surefire" value="%44"/>
+  <alias path="version.org.jboss.spec.jboss.javaee" value="%48"/>
   <alias
-   path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/data/MemberRepository.java" value="%5"/>
-  <alias path="%26" value="version.org.eclipse.m2e"/>
-  <alias path="%25" value="version.org"/>
-  <alias path="%28" value="version.junit"/>
-  <alias path="%27" value="version.license.plugin"/>
+   path="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/data/MemberRepository.java" value="%4"/>
+  <alias path="%26" value="version.license.plugin"/>
+  <alias path="%25" value="version.org.eclipse.m2e"/>
+  <alias path="%28" value="version.org.jboss.arquillian"/>
+  <alias path="%27" value="version.junit"/>
+  <alias path="%48" value="version.org.jboss.spec.jboss.javaee"/>
+  <alias path="%47" value="project.build"/>
   <alias path="%29" value="arquillian"/>
-  <alias path="%20" value="version.war"/>
-  <alias path="%22" value="project.build.finalName"/>
-  <alias path="%21" value="project.build.directory"/>
-  <alias path="%24" value="version.org.jboss"/>
-  <alias path="%23" value="version.org.jboss.spec"/>
-  <alias path="%17" value="version.ro.isdc.wro4j"/>
-  <alias path="%16" value="jboss"/>
-  <alias path="%15" value="jpamodelgen"/>
-  <alias path="%14" value="version.war.plugin"/>
-  <alias path="%19" value="version"/>
-  <alias path="%18" value="version.license"/>
-  <alias path="%13" value="version.org.eclipse"/>
-  <alias path="%12" value="version.compiler.plugin"/>
-  <alias path="%11" value="jboss.as.plugin"/>
-  <alias path="%10" value="maven.compiler.target"/>
-  <alias path="%48" value="project.build"/>
-  <alias path="%47" value="version.org.jboss.as"/>
-  <alias path="%49" value="version.org.jboss.spec.jboss.javaee"/>
-  <alias path="%44" value="version.ro.isdc"/>
-  <alias path="%43" value="arquillian.jboss_home"/>
-  <alias path="%46" value="version.org.hibernate.validator"/>
-  <alias path="%45" value="version.surefire"/>
-  <alias path="%40" value="project"/>
-  <alias path="%42" value="version.surefire.plugin"/>
-  <alias path="%41" value="version.ro"/>
+  <alias path="%44" value="version.surefire"/>
+  <alias path="%43" value="version.ro.isdc"/>
+  <alias path="%46" value="version.org.jboss.as"/>
+  <alias path="%20" value="project.build.directory"/>
+  <alias path="%45" value="version.org.hibernate.validator"/>
+  <alias path="%22" value="version.org.jboss.spec"/>
+  <alias path="%40" value="version.ro"/>
+  <alias path="%21" value="project.build.finalName"/>
+  <alias path="%24" value="version.org"/>
+  <alias path="%42" value="arquillian.jboss_home"/>
+  <alias path="%41" value="version.surefire.plugin"/>
+  <alias path="%23" value="version.org.jboss"/>
   <alias path="%0" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/util/Resources.java"/>
-  <alias path="%4" value="\jboss-as-kitchensink-html5-mobile\src\test\java\org\jboss\as\quickstarts\html5_mobile\test\MemberRegistrationTest.java"/>
-  <alias path="%3" value="\jboss-as-kitchensink-html5-mobile\src\main\java\org\jboss\as\quickstarts\html5_mobile\data\MemberRepository.java"/>
+  <alias path="%4" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/data/MemberRepository.java"/>
+  <alias path="%3" value="\jboss-as-kitchensink-html5-mobile\src\test\java\org\jboss\as\quickstarts\html5_mobile\test\MemberRegistrationTest.java"/>
   <alias path="%2" value="\jboss-as-kitchensink-html5-mobile\src\main\java\org\jboss\as\quickstarts\html5_mobile\service\MemberRegistration.java"/>
   <alias path="%1" value="\jboss-as-kitchensink-html5-mobile\src\main\java\org\jboss\as\quickstarts\html5_mobile\rest\MemberService.java"/>
-  <alias path="%7" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/service/MemberRegistration.java"/>
-  <alias path="%8" value="maven"/>
-  <alias path="%5" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/data/MemberRepository.java"/>
-  <alias path="%6" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/rest/MemberService.java"/>
-  <alias path="%39" value="maven.compiler.source"/>
-  <alias path="%38" value="version.org.jboss.spec.jboss"/>
-  <alias path="%9" value="/jboss-as-kitchensink-html5-mobile/pom.xml"/>
-  <alias path="%37" value="version.compiler"/>
-  <alias path="%36" value="project.artifactId"/>
+  <alias path="%17" value="version.license"/>
+  <alias path="%7" value="maven"/>
+  <alias path="%16" value="version.ro.isdc.wro4j"/>
+  <alias path="%8" value="/jboss-as-kitchensink-html5-mobile/pom.xml"/>
+  <alias path="%5" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/rest/MemberService.java"/>
+  <alias path="%15" value="jboss"/>
+  <alias path="%6" value="/jboss-as-kitchensink-html5-mobile/src/main/java/org/jboss/as/quickstarts/html5_mobile/service/MemberRegistration.java"/>
+  <alias path="%14" value="jpamodelgen"/>
+  <alias path="%39" value="project"/>
+  <alias path="%38" value="maven.compiler.source"/>
+  <alias path="%19" value="version.war"/>
+  <alias path="%9" value="jboss.as.plugin"/>
+  <alias path="%37" value="version.org.jboss.spec.jboss"/>
+  <alias path="%36" value="version.compiler"/>
+  <alias path="%18" value="version"/>
   <alias path="%35" value="version.org.hibernate"/>
-  <alias path="%34" value="maven.compiler"/>
-  <alias path="%33" value="jboss.as.plugin.version"/>
-  <alias path="%32" value="jboss.as"/>
-  <alias path="%31" value="version.org.jboss.arquillian"/>
+  <alias path="%34" value="project.artifactId"/>
+  <alias path="%33" value="maven.compiler"/>
+  <alias path="%32" value="jboss.as.plugin.version"/>
+  <alias path="%31" value="jboss.as"/>
+  <alias path="%13" value="version.war.plugin"/>
   <alias path="%30" value="/jboss-as-kitchensink-html5-mobile/src/test/resources/arquillian.xml"/>
+  <alias path="%12" value="version.org.eclipse"/>
+  <alias path="%11" value="version.compiler.plugin"/>
+  <alias path="%10" value="maven.compiler.target"/>
  </aliases>
  <includes/>
  <uris/>

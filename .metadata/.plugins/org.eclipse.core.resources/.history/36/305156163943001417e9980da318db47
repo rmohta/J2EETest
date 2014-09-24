@@ -1,0 +1,10 @@
+package org.jboss.as.quickstarts.spring.config;
+
+/**
+ * 
+ * @author 307814
+ *
+ */
+public class RepositoryServiceConfiguration {
+
+}

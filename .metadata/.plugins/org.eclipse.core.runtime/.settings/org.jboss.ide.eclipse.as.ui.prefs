@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
-org.jboss.ide.eclipse.as.ui.defaultWebServer=jboss-eap
+org.jboss.ide.eclipse.as.ui.defaultWebServer=jboss-eap Runtime-D-DevTools Server1411473289081
 org.jboss.ide.eclipse.as.ui.preferences.disabled.automatic.server.view=true
 org.jboss.ide.eclipse.as.ui.preferences.enabledDecorators.1=true
-org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=apache-tomcat-7.0.54
+org.jboss.ide.eclipse.as.ui.preferences.runtime.last.type.org.jboss.ide.eclipse.as.runtime.eap.61=D\:\\DevelopmentTools\\jbdevstudio\\7.1.1.GA\\runtimes\\jboss-eap
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=jboss-eap Runtime-D-DevTools Server1411473289081
