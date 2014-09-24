@@ -12,6 +12,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2014-09-23 16:34:32.534 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.7.0_45
@@ -875,10 +876,38 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.egit.ui 2 0 2014-09-23 16:36:31.114
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\307814'. If this is
+=======
+!SESSION 2014-09-24 08:42:01.938 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-24 08:44:13.976
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mohta_000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-09-24 08:47:01.433 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-24 08:47:13.482
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mohta_000'. If this is
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2014-09-23 16:36:32.321
 !MESSAGE Conflicting handlers for org.eclipse.vjet.eclipse.debug.ui.launchShortcut.run: {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1e74738} vs {org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@f4ca34}
 
@@ -3465,6 +3494,35 @@ java.io.FileNotFoundException: C:\Users\307814\Documents\GitHub\J2EETest\.metada
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
 
 !ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2014-09-23 17:12:19.916
+=======
+!ENTRY org.eclipse.osgi 2 1 2014-09-24 08:56:42.469
+!MESSAGE NLS missing message: ClientTimeoutExplanation in: org.jboss.tools.openshift.express.internal.ui.OpenshiftUIMessages
+
+!ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2014-09-24 08:57:06.973
+!MESSAGE Failed to remove JAX-RS Metamodel for project jboss-as-helloworld-rs
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2283)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:844)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsMetamodel.remove(JaxrsMetamodel.java:332)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.builder.ResourceChangedListener.resourceChanged(ResourceChangedListener.java:62)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:391)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:199)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2014-09-24 08:57:06.994
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2014-09-24 08:57:07.116
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee
 !MESSAGE Failed to remove JAX-RS Metamodel for project jboss-as-kitchensink
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
@@ -3484,6 +3542,7 @@ org.eclipse.core.internal.resources.ResourceException: The resource tree is lock
 	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 380 2014-09-23 17:12:19.916
 !MESSAGE The resource tree is locked for modifications.
 
@@ -3995,6 +4054,12 @@ java.io.FileNotFoundException: C:\Users\307814\Documents\GitHub\J2EETest\.metada
 
 !ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2014-09-23 17:41:13.417
 !MESSAGE Failed to remove JAX-RS Metamodel for project jboss-as-kitchensink-html5-mobile
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2014-09-24 08:57:07.116
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2014-09-24 08:57:07.204
+!MESSAGE Failed to remove JAX-RS Metamodel for project jboss-as-kitchensink-html5-mobile
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
 	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
@@ -4013,6 +4078,31 @@ org.eclipse.core.internal.resources.ResourceException: The resource tree is lock
 	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2014-09-24 08:57:07.204
+!MESSAGE The resource tree is locked for modifications.
+
+!ENTRY org.jboss.tools.ws.jaxrs.core 4 0 2014-09-24 08:57:07.295
+!MESSAGE Failed to remove JAX-RS Metamodel for project jboss-kitchensink-backbone
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2283)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:844)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsMetamodel.remove(JaxrsMetamodel.java:332)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.builder.ResourceChangedListener.resourceChanged(ResourceChangedListener.java:62)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:249)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:391)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:199)
+	at org.eclipse.ui.actions.CloseResourceAction.invokeOperation(CloseResourceAction.java:129)
+	at org.eclipse.ui.actions.WorkspaceAction.execute(WorkspaceAction.java:164)
+	at org.eclipse.ui.actions.WorkspaceAction$2.runInWorkspace(WorkspaceAction.java:485)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 380 2014-09-23 17:41:13.417
 !MESSAGE The resource tree is locked for modifications.
 
@@ -4292,3 +4382,7 @@ Binding(ALT+SHIFT+ARROW_LEFT,
 
 !ENTRY org.eclipse.equinox.security 2 0 2014-09-24 11:34:18.753
 !MESSAGE The modifications made to the secure storage by another program have been overwritten.
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 380 2014-09-24 08:57:07.296
+!MESSAGE The resource tree is locked for modifications.
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee

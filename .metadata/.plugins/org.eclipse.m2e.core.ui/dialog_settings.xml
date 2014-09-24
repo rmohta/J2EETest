@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
+=======
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee
 	<section name="org.eclipse.m2e.core.pom.overview">
 		<list key="issueManagementUrl">
 		</list>
@@ -10,6 +23,7 @@
 		<list key="ciManagementSystem">
 		</list>
 	</section>
+<<<<<<< HEAD
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
@@ -17,5 +31,76 @@
 		<item value="480" key="width"/>
 		<item value="192" key="y"/>
 		<item value="400" key="x"/>
+=======
+	<section name="org.jboss.tools.project.examples.stacksrequirements">
+		<item value="jboss-eap Runtime" key="targetRuntime"/>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameCombo">
+			<item value="jboss-as-kitchensink-rf"/>
+			<item value="jboss-springmvc-webapp"/>
+			<item value="jboss-example-html5"/>
+			<item value="org.jboss.tools.examples"/>
+			<item value="jboss-javaee6-webapp"/>
+			<item value="jboss-javaee6-multi"/>
+		</list>
+		<list key="packageCombo">
+			<item value="org.jboss.tools.example.richfaces"/>
+			<item value="org.jboss.tools.example.springmvc"/>
+			<item value="org.jboss.tools.example.html5"/>
+			<item value="org.jboss.tools.examples"/>
+			<item value="org.jboss.tools.example"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="groupId">
+			<item value="org.jboss.tools.example.richfaces"/>
+		</list>
+		<list key="package">
+			<item value="org.jboss.tools.example.richfaces"/>
+		</list>
+		<list key="artifactId">
+			<item value="jboss-as-kitchensink-rf"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee
 	</section>
 </section>

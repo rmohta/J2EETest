@@ -65,3 +65,8 @@ release.properties
 # J2EE Server ignore files
 #================================
 #Servers/
+
+#=========================
+# Workspace related ignore files
+#=========================
+.metadata/.plugins

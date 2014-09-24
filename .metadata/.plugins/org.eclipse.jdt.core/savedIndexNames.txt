@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.126+C:\Users\307814\Documents\GitHub\J2EETest\.metadata\.plugins\org.eclipse.jdt.core
 14919921.index
 168598617.index
@@ -35,3 +36,61 @@ INDEX VERSION 1.126+C:\Users\307814\Documents\GitHub\J2EETest\.metadata\.plugins
 1508445763.index
 2240492068.index
 639617444.index
+=======
+INDEX VERSION 1.126+C:\Users\mohta_000\Documents\GitHub\J2EETest\.metadata\.plugins\org.eclipse.jdt.core
+3874830095.index
+1050656757.index
+1498138473.index
+107609608.index
+3963191933.index
+3723626063.index
+885651498.index
+801544231.index
+1413626709.index
+4271304413.index
+3503333716.index
+2187387493.index
+796258700.index
+199897613.index
+1199751786.index
+3368225382.index
+984463782.index
+2945820818.index
+4029006774.index
+3511634897.index
+2411158953.index
+2744893454.index
+1093907851.index
+2541913658.index
+3978206054.index
+1895792730.index
+4051273966.index
+2162156017.index
+512282989.index
+3462450690.index
+3793231181.index
+296789153.index
+1072754012.index
+4270715244.index
+1712073493.index
+2958976848.index
+3494165728.index
+1954331885.index
+3446991060.index
+4007284303.index
+2367894027.index
+1664092721.index
+3788841200.index
+3674872120.index
+1987138365.index
+83932672.index
+2474552218.index
+3342635619.index
+1378746782.index
+417737399.index
+2955969856.index
+2507754162.index
+3512512382.index
+2278759032.index
+2668102013.index
+>>>>>>> 2fc1fb1800de44863480f47bb506c4a7341289ee

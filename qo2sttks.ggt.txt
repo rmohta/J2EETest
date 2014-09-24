@@ -1,0 +1,435 @@
+﻿Intial code for jboss-as-jdbc-multipleds-rs project
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   .gitignore
+#	modified:   .metadata/.log
+#	new file:   .metadata/.mylyn/repositories.xml.zip
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/10/10c066513a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/12/70870da23943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/13/f0b9d2c03943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/17/30110ad93943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/1a/60e6f78e3b43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/1c/20731a593943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/28/c013f1903a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/29/507ec7781d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/2c/f0ed70f21c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/33/4082656c1a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/36/305156163943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/37/40a45ba23543001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/48/604192163c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/4c/40663ff81b43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/4c/60afc20a3b43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/52/9074bab53943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/61/504b20f31d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/63/206ac6473943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/64/401b94201c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/68/103a15013a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/6b/401c3ffb1c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/6d/50f3e07b1d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7/4045cb7b1943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/78/40bdfc1f1c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7a/507515d01c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7e/404b36521d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7f/0043c3b33a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/80/a02d55691d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/81/605bffcb1d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/82/304be5283943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/8c/50a408811c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/8d/30bad6173a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/91/60d787793943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/9c/60e0c2263943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/a2/5058d1953543001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/aa/50cbc1f63943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ac/20abe2443943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ae/80ac68fc3a43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b1/30e27f921b43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b2/f00242a93943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b7/40d314461d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b7/b0042e243943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/be/409936411c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/cc/d038ecb41d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/d5/70da9cb53943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/d6/403d5b681d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/da/2094fd133943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/e/80efd6083c43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/e2/009d99fc3943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ea/50bd59161d43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f1/80703ee13943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f3/000caad73943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f5/205783251b43001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f9/500b6f0f3943001417e9980da318db47
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ff/605e35f71d43001417e9980da318db47
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-jms/.indexes/properties.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-jms/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-jms/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-jms/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-jms/1.tree
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-jms/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-rs/.indexes/e4/b9/b3/a8/properties.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-rs/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-rs/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-rs/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-rs/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld-rs/org.eclipse.wst.jsdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld/1.tree
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-helloworld/org.eclipse.wst.jsdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jax-rs-client/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jax-rs-client/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jax-rs-client/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jax-rs-client/1.tree
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jax-rs-client/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/.indexes/e4/b9/22/e4/d7/32/7e/f3/be/history.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/.indexes/e4/b9/b3/a8/properties.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/.indexes/e4/b9/b3/f9/f3/history.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/.indexes/history.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/.indexes/properties.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/.markers
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/org.eclipse.egit.core/GitProjectData.properties
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-jdbc-multipleds-rs/org.eclipse.wst.jsdt.core/state.dat
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/.indexes/properties.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/1.tree
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink-html5-mobile/org.eclipse.wst.jsdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink/1.tree
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink/org.eclipse.jdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-as-kitchensink/org.eclipse.wst.jsdt.core/state.dat
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-kitchensink-backbone/.markers
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-kitchensink-backbone/.markers.snap
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-kitchensink-backbone/.syncinfo.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/jboss-kitchensink-backbone/1.tree
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+#	deleted:    .metadata/.plugins/org.eclipse.core.resources/.snap
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/com.collabnet.subversion.merge.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ajdt.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.mod.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.vjet.eclipse.core.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.vjet.eclipse.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.server.core.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.ide.eclipse.as.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.tools.central.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.tools.jst.jsp.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.tools.openshift.express.core.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.jboss.tools.runtime.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.config.ui.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.configurator.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.tools.usage.prefs
+#	new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.datatools.connectivity/ServerProfiles.bak
+#	modified:   .metadata/.plugins/org.eclipse.datatools.connectivity/ServerProfiles.dat
+#	new file:   .metadata/.plugins/org.eclipse.dltk.mod.core/Containers.dat
+#	modified:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1031957163.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1046331750.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1112325539.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/2532362638.index -> .metadata/.plugins/org.eclipse.jdt.core/1165849320.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/123202703.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/1242933691.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1246058860.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1261976457.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1289573271.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1312395495.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1346337799.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/140191745.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/1413745317.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/70025476.index -> .metadata/.plugins/org.eclipse.jdt.core/1424664353.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1441044405.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1456590835.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1475032450.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/14919921.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/2633599049.index -> .metadata/.plugins/org.eclipse.jdt.core/1508445763.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1582673712.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1604842010.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1620778155.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1655254909.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1662768048.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1667700201.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1685929943.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/1369132452.index -> .metadata/.plugins/org.eclipse.jdt.core/168598617.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1701625371.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1767993441.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1790943921.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/3045605428.index -> .metadata/.plugins/org.eclipse.jdt.core/1844084635.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1857881434.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/1925182925.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2002752431.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/753898056.index -> .metadata/.plugins/org.eclipse.jdt.core/2063346762.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/2086905455.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/932075410.index -> .metadata/.plugins/org.eclipse.jdt.core/2094679539.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2116106149.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2144264191.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2151655890.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/221836940.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/4133750330.index -> .metadata/.plugins/org.eclipse.jdt.core/2221133068.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/1623005221.index -> .metadata/.plugins/org.eclipse.jdt.core/2235686936.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/2240492068.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2241853493.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2250586492.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2261454802.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/233782151.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2347182890.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/1312727116.index -> .metadata/.plugins/org.eclipse.jdt.core/2396429692.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2427187541.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2437555770.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/2594421806.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/2600724028.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2608273758.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/1641863750.index -> .metadata/.plugins/org.eclipse.jdt.core/2704598902.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/2707023223.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2768211753.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2803337110.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/2838512182.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/2879914536.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3025295298.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3050730392.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3054203951.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3069732224.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3081738072.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3096520018.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3096598376.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3156870710.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3160105930.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/2131691493.index -> .metadata/.plugins/org.eclipse.jdt.core/3260388585.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/3891995667.index -> .metadata/.plugins/org.eclipse.jdt.core/3276523903.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3373019425.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3388553616.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3455402545.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/3342635619.index -> .metadata/.plugins/org.eclipse.jdt.core/3459744987.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/348885567.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3525015206.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3587598209.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3595873540.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3647480005.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3700631157.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3712402011.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3719937306.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3757431092.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3767848030.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/3777284140.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3858891905.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/3464939994.index -> .metadata/.plugins/org.eclipse.jdt.core/38678795.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/3958315219.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/4000453156.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/4052743397.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/4059336094.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/4156205064.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/4221503996.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/4221721311.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/4260054933.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/4292340073.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/440865169.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/480894644.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/498802592.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/505168802.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/506479825.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/3877516899.index -> .metadata/.plugins/org.eclipse.jdt.core/639617444.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/662166350.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/703536778.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/710365281.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/4258624457.index -> .metadata/.plugins/org.eclipse.jdt.core/729300007.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/778209303.index
+#	renamed:    .metadata/.plugins/org.eclipse.jdt.core/4252195015.index -> .metadata/.plugins/org.eclipse.jdt.core/822837008.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/826963872.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/83201660.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/852159388.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/887912090.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/947021018.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/951896828.index
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/980627226.index
+#	deleted:    .metadata/.plugins/org.eclipse.jdt.core/997809700.index
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+#	new file:   .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+#	modified:   .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+#	modified:   .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/787289397.dat
+#	new file:   .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2014/9/39/refactorings.history
+#	new file:   .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2014/9/39/refactorings.index
+#	new file:   .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/jboss-as-jdbc-multipleds-rs/2014/9/39/refactorings.history
+#	new file:   .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/jboss-as-jdbc-multipleds-rs/2014/9/39/refactorings.index
+#	new file:   .metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml
+#	modified:   .metadata/.plugins/org.eclipse.m2e.core/jboss-as-helloworld-rs.lifecyclemapping
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/3ee9c3e9507b9d8235dd5c25f5bff76a/_3m.cfs
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/3ee9c3e9507b9d8235dd5c25f5bff76a/_3n.cfs
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/3ee9c3e9507b9d8235dd5c25f5bff76a/segments.gen
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/3ee9c3e9507b9d8235dd5c25f5bff76a/segments_3c
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/3ee9c3e9507b9d8235dd5c25f5bff76a/write.lock
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_14.cfs
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_15.cfs
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_15_1.del
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_16.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_a.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_a_7.del
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_b.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_c.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_d.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_e.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_f.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_g.cfs
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_h.cfs
+#	modified:   .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_14
+#	deleted:    .metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_i
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/afe2f6846e29b01a0dd74c1334a279d3/_0.cfs
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/afe2f6846e29b01a0dd74c1334a279d3/segments.gen
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/afe2f6846e29b01a0dd74c1334a279d3/segments_2
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/afe2f6846e29b01a0dd74c1334a279d3/write.lock
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/d9d714e11cb097b3ffcec91cccc65d3e/_0.cfs
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/d9d714e11cb097b3ffcec91cccc65d3e/segments.gen
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/d9d714e11cb097b3ffcec91cccc65d3e/segments_2
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/nexus/d9d714e11cb097b3ffcec91cccc65d3e/write.lock
+#	new file:   .metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+#	modified:   .metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties
+#	modified:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-helloworld-jms.container
+#	modified:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-helloworld-rs.container
+#	modified:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-helloworld.container
+#	modified:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-jax-rs-client.container
+#	new file:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-jdbc-multipleds-rs.container
+#	modified:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-kitchensink-html5-mobile.container
+#	modified:   .metadata/.plugins/org.eclipse.m2e.jdt/jboss-as-kitchensink.container
+#	new file:   .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+#	new file:   .metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+#	modified:   .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+#	new file:   .metadata/.plugins/org.eclipse.ui/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml
+#	modified:   .metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1587016262.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1655569233.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1685929943.index
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/1747062596.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/2442834970.index
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/2669368446.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/301866674.index
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3042398524.index
+#	renamed:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/4000453156.index -> .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3096598376.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3210278738.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/3535615502.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/4156205064.index
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/4222919154.index
+#	deleted:    .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/83201660.index
+#	modified:   .metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt
+#	modified:   .metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml
+#	new file:   .metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml
+#	new file:   .metadata/.plugins/org.eclipse.wst.server.core/publish.xml
+#	modified:   .metadata/.plugins/org.eclipse.wst.server.core/servers.xml
+#	new file:   .metadata/.plugins/org.eclipse.wst.server.core/tmp-data.xml
+#	modified:   .metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+#	new file:   .metadata/.plugins/org.eclipse.wst.sse.ui/dialog_settings.xml
+#	modified:   .metadata/.plugins/org.eclipse.wst.validation/dep.index
+#	modified:   .metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml
+#	renamed:    .metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-eap/filesets.xml -> .metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-eap_Runtime-D-DevTools_Server1411473289081/filesets.xml
+#	renamed:    .metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-eap/xpaths.xml -> .metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-eap_Runtime-D-DevTools_Server1411473289081/xpaths.xml
+#	new file:   .metadata/.plugins/org.jboss.tools.central/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache-3197240364673640602.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache-4496188927521610999.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache-6985189408660991204.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache-7404535275466091497.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache1364779204822489916.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache6179476122103196785.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache6231370818970939128.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache7158735494688923757.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.foundation.core/ECF_REMOTE_CACHE/cache8205713461526677196.tmp
+#	new file:   .metadata/.plugins/org.jboss.tools.jst.web.kb/projects/jboss-as-helloworld-rs.xml
+#	new file:   .metadata/.plugins/org.jboss.tools.jst.web.kb/projects/jboss-as-jdbc-multipleds-rs.xml
+#	modified:   .metadata/.plugins/org.jboss.tools.jst.web.kb/projects/jboss-as-kitchensink-html5-mobile.xml
+#	modified:   .metadata/.plugins/org.jboss.tools.jst.web.kb/projects/jboss-as-kitchensink.xml
+#	modified:   .metadata/.plugins/org.jboss.tools.jst.web.kb/projects/jboss-kitchensink-backbone.xml
+#	new file:   .metadata/.plugins/org.jboss.tools.vpe/templates/vpe-templates-auto.xml
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.aop.core/.state
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/properties/.state
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/-677243155.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/-677251483.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/1996968550.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/1997774629.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/422365330.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/480297720.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/480354795.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/480593282.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/480641023.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.core/images/670890433.gif
+#	new file:   .metadata/.plugins/org.springframework.ide.eclipse.beans.ui/dialog_settings.xml
+#	new file:   .metadata/.plugins/org.tigris.subversion.subclipse.ui/dialog_settings.xml
+#	modified:   jboss-as-helloworld-rs/.classpath
+#	modified:   jboss-as-helloworld-rs/.project
+#	modified:   jboss-as-helloworld-rs/.settings/org.eclipse.wst.common.project.facet.core.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/.classpath
+#	new file:   jboss-as-jdbc-multipleds-rs/.project
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/.jsdtscope
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.core.resources.prefs
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.jdt.core.prefs
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.m2e.core.prefs
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.wst.common.component
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.wst.common.project.facet.core.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.wst.jsdt.ui.superType.container
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.wst.jsdt.ui.superType.name
+#	new file:   jboss-as-jdbc-multipleds-rs/.settings/org.eclipse.wst.validation.prefs
+#	new file:   jboss-as-jdbc-multipleds-rs/.springBeans
+#	new file:   jboss-as-jdbc-multipleds-rs/README.md
+#	new file:   jboss-as-jdbc-multipleds-rs/pom.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/java/org/jboss/as/quickstarts/rshelloworld/HelloService.java
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/java/org/jboss/as/quickstarts/rshelloworld/HelloWorld.java
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/java/org/jboss/as/quickstarts/spring/config/AppConfig.java
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/java/org/jboss/as/quickstarts/spring/config/RepositoryServiceConfiguration.java
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/webapp/META-INF/spring/repo-service-config.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/webapp/WEB-INF/beans.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/webapp/WEB-INF/web.xml
+#	new file:   jboss-as-jdbc-multipleds-rs/src/main/webapp/index.html
+#	modified:   jboss-as-kitchensink/.classpath
+#	modified:   jboss-as-kitchensink/.project
+#	modified:   jboss-as-kitchensink/.settings/org.eclipse.wst.common.project.facet.core.xml
+#
+
